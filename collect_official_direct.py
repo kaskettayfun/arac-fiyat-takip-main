@@ -146,6 +146,30 @@ def official_source_update_reason(brand: str) -> str | None:
         return None
 
 
+def extract_page_effective_date(text: str) -> date | None:
+    """Sayfa metninde açıkça belirtilen geçerlilik/güncelleme tarihini çıkar."""
+    normalized = re.sub(r"\s+", " ", str(text or "")).strip()
+    numeric = re.search(
+        r"(\d{1,2})\.(\d{1,2})\.(20\d{2})\s*(?:tarih(?:inden|i\s+itibarıyla|i\s+itibariyle)|itibarıyla)",
+        normalized, re.I,
+    )
+    if numeric:
+        try:
+            return date(int(numeric.group(3)), int(numeric.group(2)), int(numeric.group(1)))
+        except ValueError:
+            pass
+    named = re.search(
+        r"(\d{1,2})\s+([A-Za-zÇĞİÖŞÜçğıöşü]+)\s+(20\d{2})\s+tarih(?:inden|i)",
+        normalized, re.I,
+    )
+    if named and named.group(2).casefold() in TR_MONTHS:
+        try:
+            return date(int(named.group(3)), TR_MONTHS[named.group(2).casefold()], int(named.group(1)))
+        except ValueError:
+            pass
+    return None
+
+
 def byd_model_for(heading: str, cell0: str) -> str:
     combined = f"{heading} {cell0}".strip()
     match = re.search(
@@ -419,10 +443,11 @@ def _discover_fiat_bundle_url(default_url: str = "https://talep.fiat.com.tr/main
 
 
 def collect_fiat() -> list[PriceRecord]:
-    bundle_url = _discover_fiat_bundle_url()
+    # Tofaş API anahtarı (FIAT_API_AUTH) tanımlıysa talep.fiat.com.tr'ye bağlanma.
     api_root = "https://prlapi.now.tofas.com.tr/api/PriceList"
     token = os.environ.get("FIAT_API_AUTH", "").strip()
     if not token:
+        bundle_url = _discover_fiat_bundle_url()
         bundle = urlopen(Request(bundle_url, headers=HEADERS), timeout=60).read().decode("utf-8", "replace")
         auth = re.search(r'auth:\{username:"([^"]+)",password:"([^"]+)"\}', bundle)
         if not auth:
@@ -679,10 +704,21 @@ async def table_rows(page, brand: str) -> list[PriceRecord]:
     await page.wait_for_timeout(5000)
     await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
     await page.wait_for_timeout(2000)
-    raw = await page.locator("table").evaluate_all("""tables => tables.map(t => ({
-      heading: (() => { let p=t; while(p){ const h=p.querySelector?.('h1,h2,h3,h4,h5,h6'); if(h?.innerText) return h.innerText; p=p.parentElement } return '' })(),
-      rows: [...t.rows].map(r => [...r.cells].map(c => c.innerText.trim()))
-    }))""")
+    body_text = await page.locator("body").inner_text()
+    list_date = extract_page_effective_date(body_text)
+    if list_date and (NOW.date() - list_date).days > 60:
+        raise RuntimeError(f"{brand} resmî sayfa liste tarihi güncel değil: {list_date}")
+    raw = await page.locator("table").evaluate_all("""tables => {
+      const visible = tables.filter(t => {
+        const s = window.getComputedStyle(t);
+        return !t.hidden && s.display !== 'none' && s.visibility !== 'hidden' && t.offsetParent !== null;
+      });
+      const active = visible.length ? visible : tables;
+      return active.map(t => ({
+        heading: (() => { let p=t; while(p){ const h=p.querySelector?.('h1,h2,h3,h4,h5,h6'); if(h?.innerText) return h.innerText; p=p.parentElement } return '' })(),
+        rows: [...t.rows].map(r => [...r.cells].map(c => c.innerText.trim()))
+      }));
+    }""")
     out = []
     for table in raw:
         rows = table["rows"]
@@ -712,7 +748,7 @@ async def table_rows(page, brand: str) -> list[PriceRecord]:
                 row_model = nissan_model_for(variant, model)
             elif brand == "BYD":
                 row_model = byd_model_for(model, cells[0])
-            out.append(record(brand, row_model or cells[0], variant or cells[0], lp, campaign, year, fuel, transmission))
+            out.append(record(brand, row_model or cells[0], variant or cells[0], lp, campaign, year, fuel, transmission, list_date=list_date))
     return unique(out)
 
 
@@ -1944,7 +1980,8 @@ async def main() -> None:
         brand: reason for brand, reason in errors.items()
         if reason.startswith((SOURCE_UPDATING_PREFIX, SOURCE_ACCESS_PREFIX))
     }
-    errors.update(coverage_errors(all_rows, counts))
+    for brand_name, err in coverage_errors(all_rows, counts).items():
+        errors.setdefault(brand_name, err)
     errors.update(source_state_errors)
     fallbacks = {}
     for brand, reason in list(errors.items()):

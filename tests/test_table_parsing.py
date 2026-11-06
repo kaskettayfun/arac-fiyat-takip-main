@@ -1,6 +1,7 @@
+from datetime import date
 import unittest
 
-from collect_official_direct import byd_model_for, nissan_model_for, table_price
+from collect_official_direct import byd_model_for, extract_page_effective_date, nissan_model_for, table_price
 
 
 class TableParsingTest(unittest.TestCase):
@@ -16,6 +17,16 @@ class TableParsingTest(unittest.TestCase):
         self.assertEqual(byd_model_for("", "BYD SEAL 390 kW AWD Excellence %75"), "BYD SEAL")
         self.assertEqual(byd_model_for("BYD TANG", "BYD TANG 380 kW AWD Flagship %75"), "BYD TANG")
         self.assertEqual(byd_model_for("", "BYD SEAL U DM-i 160 kW AWD Design"), "BYD SEAL U DM-i")
+
+    def test_extracts_page_effective_date_from_turkish_text(self):
+        self.assertEqual(
+            extract_page_effective_date("Fiyatlar 5 Kasım 2026 tarihinden itibaren geçerlidir."),
+            date(2026, 11, 5),
+        )
+        self.assertEqual(
+            extract_page_effective_date("04.11.2026 tarihi itibarıyla geçerli tavsiye edilen anahtar teslim fiyat listesi"),
+            date(2026, 11, 4),
+        )
 
     def test_nissan_models_are_inferred_from_official_variants(self):
         self.assertEqual(nissan_model_for("1.3 DIG-T Mild Hybrid 158PS Auto"), "Qashqai")

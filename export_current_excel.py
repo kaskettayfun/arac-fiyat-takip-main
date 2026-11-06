@@ -70,6 +70,54 @@ def add_source_status_sheet(workbook: Workbook, rows: list[list], fallbacks: dic
         source_sheet.column_dimensions[column].width = width
 
 
+def add_verification_proof_sheet(workbook: Workbook, records: list, fallbacks: dict,
+                                 secondary_sources: dict | None = None) -> None:
+    """Her markanın hangi tarihte, hangi tam URL/PDF'ten ve hangi kanıtla çekildiğini göster."""
+    secondary_sources = secondary_sources or {}
+    proof_sheet = workbook.create_sheet("Canli_Dogrulama_Kaniti")
+    proof_sheet.append([
+        "Marka", "Veri Güvencesi", "Çekim Tarihi", "Liste / PDF Tarihi",
+        "Model Yılları", "Araç Sayısı", "Örnek Araç", "Örnek Liste Fiyatı (TL)",
+        "Okunan Doğrudan Kaynak / PDF / API Linki", "Doğrulama Notu",
+    ])
+    by_brand: dict[str, list] = {}
+    for rec in records:
+        by_brand.setdefault(rec.Marka, []).append(rec)
+    for brand in sorted(by_brand):
+        brand_records = by_brand[brand]
+        sample = brand_records[0]
+        detail = fallbacks.get(brand)
+        secondary = secondary_sources.get(brand)
+        status = (
+            "B PLANI (ÖNCEKİ DOĞRULANMIŞ VERİ)" if detail
+            else ("TARİHLİ İKİNCİL KAYNAK" if secondary else "DOĞRUDAN RESMÎ KAYNAK")
+        )
+        pulled_date = sample.Kayit_Tarihi.date().isoformat()
+        list_dates = sorted({r.Liste_Tarihi.isoformat() for r in brand_records if r.Liste_Tarihi})
+        years = ", ".join(str(y) for y in sorted({r.Model_Yili for r in brand_records if r.Model_Yili}))
+        urls = sorted({r.Kaynak_URL for r in brand_records if r.Kaynak_URL})
+        sample_name = display_version(sample.Model, sample.Versiyon_Paket)
+        note = detail.get("reason", "") if detail else (sample.Notlar or "")
+        proof_sheet.append([
+            brand, status, pulled_date,
+            ", ".join(list_dates), years, len(brand_records),
+            sample_name, sample.Liste_Fiyati_TL,
+            urls[0] if urls else "", note,
+        ])
+    proof_sheet.freeze_panes = "A2"
+    for cell in proof_sheet[1]:
+        cell.font = Font(color="FFFFFF", bold=True)
+        cell.fill = PatternFill("solid", fgColor="172033")
+    for cell in proof_sheet["H"][1:]:
+        cell.number_format = '#,##0 "TL"'
+    widths = {
+        "A": 18, "B": 30, "C": 15, "D": 18, "E": 15,
+        "F": 13, "G": 42, "H": 22, "I": 70, "J": 55,
+    }
+    for column, width in widths.items():
+        proof_sheet.column_dimensions[column].width = width
+
+
 def main() -> None:
     records, errors = load_records()
     if errors:
@@ -104,6 +152,7 @@ def main() -> None:
     secondary_sources = {brand: detail for brand, detail in secondary_source_details(snapshot.get("records", [])).items()
                          if brand not in fallbacks}
     add_source_status_sheet(workbook, rows, fallbacks, secondary_sources)
+    add_verification_proof_sheet(workbook, records, fallbacks, secondary_sources)
     fill = PatternFill("solid", fgColor="172033")
     for cell in current[1]:
         cell.font = Font(color="FFFFFF", bold=True); cell.fill = fill
