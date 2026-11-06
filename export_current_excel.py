@@ -97,7 +97,7 @@ def add_verification_proof_sheet(workbook: Workbook, records: list, fallbacks: d
         years = ", ".join(str(y) for y in sorted({r.Model_Yili for r in brand_records if r.Model_Yili}))
         urls = sorted({r.Kaynak_URL for r in brand_records if r.Kaynak_URL})
         sample_name = display_version(sample.Model, sample.Versiyon_Paket)
-        note = detail.get("reason", "") if detail else (sample.Notlar or "")
+        note = detail.get("reason", "") if detail else (sample.Aciklama or "")
         proof_sheet.append([
             brand, status, pulled_date,
             ", ".join(list_dates), years, len(brand_records),

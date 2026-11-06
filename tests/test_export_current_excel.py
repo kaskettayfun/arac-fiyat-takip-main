@@ -2,7 +2,9 @@ import unittest
 from pathlib import Path
 from openpyxl import Workbook
 
-from export_current_excel import add_source_status_sheet, campaign_price, display_version, is_dated_export, output_path
+from datetime import date, datetime
+from export_current_excel import add_source_status_sheet, add_verification_proof_sheet, campaign_price, display_version, is_dated_export, output_path
+from vehicle_prices.schema import PriceRecord
 
 
 class CurrentExportNamingTest(unittest.TestCase):
@@ -44,6 +46,24 @@ class CurrentExportNamingTest(unittest.TestCase):
         self.assertEqual(rows[1], ("Chery", "B PLANI", "2026-08-31", 1, "kaynak boş"))
         self.assertEqual(rows[2], ("Fiat", "DOĞRUDAN", "", 1, ""))
         self.assertEqual(rows[3], ("Tesla", "İKİNCİL KAYNAK", "2026-09-01", 1, "https://www.webtekno.com/tesla"))
+        book.close()
+
+    def test_verification_proof_sheet_records_live_and_fallback_evidence(self):
+        book = Workbook()
+        records = [
+            PriceRecord(
+                datetime(2026, 11, 6, 12, 0), date(2026, 11, 5), "BYD", "BYD SEAL",
+                "BYD SEAL 390 kW AWD Excellence %75", 2026, "Elektrik", "Otomatik",
+                None, "", 4_077_000, None, "TL", "https://www.bydauto.com.tr/fiyat-listesi",
+                "OK", "Resmî Türkiye kaynağından doğrudan alınmıştır",
+            ),
+        ]
+        add_verification_proof_sheet(book, records, {}, {})
+        rows = list(book["Canli_Dogrulama_Kaniti"].values)
+        self.assertEqual(rows[1][0], "BYD")
+        self.assertEqual(rows[1][1], "DOĞRUDAN RESMÎ KAYNAK")
+        self.assertEqual(rows[1][3], "2026-11-05")
+        self.assertEqual(rows[1][9], "Resmî Türkiye kaynağından doğrudan alınmıştır")
         book.close()
 
 
