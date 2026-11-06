@@ -1,0 +1,178 @@
+name: Haftalik Sifir Arac Fiyatlari
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "*.py"
+      - "vehicle_prices/**"
+      - "config/**"
+      - "tests/**"
+      - "requirements.txt"
+      - ".github/workflows/weekly-prices.yml"
+  schedule:
+    # 01:15 UTC = Türkiye 04:15. GitHub'ın planlı iş gecikmelerine karşı
+    # geniş tampon bırakılır; e-posta adımı Türkiye saatiyle 09:00'dan önce çıkmaz.
+    - cron: "15 1 * * 1,5"
+    # Ayın 3'ünde aylık geçiş snapshot'ını aynı tamponla garanti eder.
+    - cron: "15 1 3 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: haftalik-sifir-arac-fiyatlari
+  cancel-in-progress: false
+
+jobs:
+  calendar-gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run_collect: ${{ steps.gate.outputs.run_collect }}
+    steps:
+      - id: gate
+        shell: bash
+        run: |
+          run_collect=true
+          if [ "${{ github.event.schedule }}" = "15 1 3 * *" ]; then
+            weekday="$(date -u +%u)"
+            if [ "$weekday" = "1" ] || [ "$weekday" = "5" ]; then
+              run_collect=false
+            fi
+          fi
+          echo "run_collect=$run_collect" >> "$GITHUB_OUTPUT"
+
+  collect:
+    needs: calendar-gate
+    if: needs.calendar-gate.outputs.run_collect == 'true'
+    # Playwright 1.54 Chromium installation is unsupported on ubuntu-26.04.
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - name: Depoyu al
+        uses: actions/checkout@v6
+
+      - name: Python kur
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Bagimliliklari kur
+        timeout-minutes: 8
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Testleri calistir
+        id: tests
+        timeout-minutes: 3
+        run: python -m unittest discover -s tests -p "test_*.py"
+
+      - name: 30 resmi kaynaktan fiyatlari cek
+        id: collect_prices
+        timeout-minutes: 35
+        env:
+          FIAT_API_AUTH: ${{ secrets.FIAT_API_AUTH }}
+        run: |
+          success=0
+          for attempt in 1 2; do
+            echo "Tam kaynak taramasi denemesi: ${attempt}/2"
+            rm -f data/official/direct_latest.json
+            if xvfb-run -a python collect_official_direct.py; then
+              success=1
+              break
+            fi
+            if [ "$attempt" -lt 2 ]; then sleep 30; fi
+          done
+          test "$success" -eq 1
+
+      - name: Onceki basarili Exceli kontrol tabani yap
+        timeout-minutes: 1
+        run: python prepare_audit_baseline.py
+
+      - name: Kapsami denetle ve gecmise ekle
+        id: store_history
+        timeout-minutes: 3
+        run: python main.py
+
+      - name: Guncel Excel dosyasini olustur
+        id: export_excel
+        timeout-minutes: 2
+        run: python export_current_excel.py
+
+      - name: Ikinci kontrolor ile dogrula
+        id: audit
+        timeout-minutes: 4
+        run: python audit_current_run.py
+
+      - name: Kisa rapor olustur
+        if: always()
+        env:
+          JOB_STATUS: ${{ job.status }}
+          TEST_OUTCOME: ${{ steps.tests.outcome }}
+          COLLECT_OUTCOME: ${{ steps.collect_prices.outcome }}
+          EXPORT_OUTCOME: ${{ steps.export_excel.outcome }}
+          AUDIT_OUTCOME: ${{ steps.audit.outcome }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python generate_report.py
+
+      - name: Degisiklikleri depoya kaydet
+        if: success()
+        # Excel teslimi, başka bir koşunun aynı anda yaptığı push yüzünden
+        # başarısız sayılmamalı. Önce yeniden taban alıp tekrar dener; yine de
+        # yazılamazsa artifact ve e-posta doğrulanmış Excel'i teslim eder.
+        continue-on-error: true
+        timeout-minutes: 3
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/Sifir_Arac_Fiyat_Gecmisi.xlsx data/arsiv/ data/Sifir_arac_*.xlsx
+          git diff --cached --quiet || git commit -m "data: haftalik sifir arac fiyatlari"
+          for attempt in 1 2; do
+            if git push; then exit 0; fi
+            if [ "$attempt" -lt 2 ]; then
+              git pull --rebase origin main
+              sleep 5
+            fi
+          done
+          echo "Uyari: anlik depo cakismasi nedeniyle snapshot push edilemedi. Dogrulanmis Excel artifact ve e-posta ile teslim edilecek."
+
+      - name: Guncel Excel dosyasini sakla
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: sifir-arac-fiyat-raporu-${{ github.run_id }}
+          path: |
+            data/Sifir_arac_*.xlsx
+          if-no-files-found: warn
+          retention-days: 90
+
+      - name: Planli e-posta saatini bekle
+        if: always() && github.event_name == 'schedule'
+        timeout-minutes: 45
+        shell: bash
+        run: |
+          target_epoch="$(date -u -d "$(date -u +%F) 06:00:00" +%s)"
+          now_epoch="$(date -u +%s)"
+          wait_seconds="$((target_epoch - now_epoch))"
+          if [ "$wait_seconds" -gt 0 ]; then
+            echo "Rapor hazır; Türkiye saati 09:00 için ${wait_seconds} saniye bekleniyor."
+            sleep "$wait_seconds"
+          fi
+
+      - name: E-posta gonder
+        # Kod push'ları yalnız doğrulama içindir; alıcıları başarısız geliştirme
+        # koşularıyla meşgul etme. Planlı ve elle istenen taramalar mail yollar.
+        if: always() && !cancelled() && github.event_name != 'push'
+        env:
+          # E-posta sonucu yalnız veri/Excel denetimlerine bağlıdır. Depoya
+          # yazmadaki geçici yarış, geçerli Excel ekini engellemez.
+          JOB_STATUS: ${{ steps.collect_prices.outcome == 'success' && steps.store_history.outcome == 'success' && steps.export_excel.outcome == 'success' && steps.audit.outcome == 'success' && 'success' || 'failure' }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          REPORT_EMAIL_TO: ${{ secrets.REPORT_EMAIL_TO }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+        run: python send_email.py

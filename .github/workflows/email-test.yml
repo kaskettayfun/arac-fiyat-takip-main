@@ -1,0 +1,26 @@
+name: E-posta Baglanti Testi
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-smtp:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Python kur
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: SMTP girisini dogrula
+        env:
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+        run: |
+          python -c "import os, smtplib; user = os.environ['SMTP_USERNAME'].strip(); password = ''.join(os.environ['SMTP_PASSWORD'].split()); host = os.getenv('SMTP_HOST') or 'smtp.gmail.com'; port = int(os.getenv('SMTP_PORT') or '465'); client = smtplib.SMTP_SSL(host, port, timeout=30); client.login(user, password); client.quit(); print('SMTP girisi basarili')"

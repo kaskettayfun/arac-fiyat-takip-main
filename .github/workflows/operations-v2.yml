@@ -1,0 +1,55 @@
+name: Fiyat Robotu V2 Deneme
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-v2:
+    # Keep the browser runner aligned with the supported production image.
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: feature/operations-v2
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+      - name: Mevcut robot testleri
+        run: python -m unittest discover -s tests -p "test_*.py"
+      - name: V2 ayrı snapshot üretimi
+        env:
+          PRICE_ROBOT_OUTPUT: v2_output/direct_latest.json
+          FIAT_API_AUTH: ${{ secrets.FIAT_API_AUTH }}
+        run: xvfb-run -a python collect_official_direct.py || true
+      - name: Yalnız sorunlu markaları kurtar
+        env:
+          PRICE_ROBOT_SNAPSHOT: v2_output/direct_latest.json
+          FIAT_API_AUTH: ${{ secrets.FIAT_API_AUTH }}
+        run: xvfb-run -a python recover_failed_brands.py
+      - name: V2 ayrı Excel üretimi
+        env:
+          PRICE_ROBOT_SNAPSHOT: v2_output/direct_latest.json
+          V2_TSB_MAPPINGS: v2_output/confirmed_tsb_only_mappings.json
+        run: |
+          python refresh_exact_tsb.py
+          python build_v2_tsb_mapping.py
+          python v2_export.py
+      - name: V2 sağlık, istihbarat, SQL ve panel üretimi
+        env:
+          PRICE_ROBOT_EXCEL: v2_output/Sifir_arac_V2.xlsx
+          FORCE_HISTORY_BASELINE: "1"
+        run: python build_operations.py
+      - name: V2 çıktıları
+        uses: actions/upload-artifact@v7
+        with:
+          name: fiyat-robotu-v2-${{ github.run_id }}
+          path: v2_output/
+          retention-days: 30

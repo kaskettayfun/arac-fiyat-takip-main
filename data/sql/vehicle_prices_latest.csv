@@ -1,0 +1,536 @@
+﻿collected_at,brand,model,version_trim,fuel_type,transmission,engine_power_hp,list_price_try,campaign_price_try,source_url
+2026-08-16T21:33:03.388506+03:00,Audi,A3 Sedan,S line TFSI S tronic,Benzin,Otomatik,150,4790444,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.388461+03:00,Audi,A3 Sedan,advanced TFSI S tronic,Benzin,Otomatik,150,4297796,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.388588+03:00,Audi,A3 Sportback,S line TFSI S tronic,Benzin,Otomatik,150,4652924,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.388547+03:00,Audi,A3 Sportback,advanced TFSI S tronic,Benzin,Otomatik,150,3614616,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.388394+03:00,Audi,A3 allstreet,TFSI S tronic,Benzin,Otomatik,150,4511012,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.388685+03:00,Audi,A5 Avant,TDI quattro 150 kW S tronic,MHEV,Otomatik,204,8669281,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.388724+03:00,Audi,A5 Avant,TFSI quattro 150 kW S tronic,Benzin,Otomatik,204,8314177,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.388644+03:00,Audi,A5 Avant,TFSI quattro 200 kW S tronic,MHEV,Otomatik,272,8926537,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.388838+03:00,Audi,A5 Sedan,TDI quattro 150 kW S tronic,MHEV,Otomatik,204,8399713,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.388762+03:00,Audi,A5 Sedan,TFSI quattro 150 kW S tronic,Benzin,Otomatik,204,8044609,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.388800+03:00,Audi,A5 Sedan,TFSI quattro 200 kW S tronic,MHEV,Otomatik,272,8656969,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.388877+03:00,Audi,A6 Avant,TDI quattro 150 kW S tronic,MHEV,Otomatik,204,11037040,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.388915+03:00,Audi,A6 Avant,TFSI quattro 200 kW S tronic,MHEV,Otomatik,272,11292871,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.388954+03:00,Audi,A6 Avant e-tron,e-tron,Elektrik,Otomatik,322,8341960,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389033+03:00,Audi,A6 Avant e-tron,e-tron performance,Elektrik,Otomatik,375,9639102,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.388992+03:00,Audi,A6 Avant e-tron,e-tron quattro,Elektrik,Otomatik,456,10057842,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389151+03:00,Audi,A6 Sedan,TDI quattro 150 kW S tronic,MHEV,Otomatik,204,10534614,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389190+03:00,Audi,A6 Sedan,TDI quattro 220 kW S tronic,MHEV,Otomatik,299,13892294,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389111+03:00,Audi,A6 Sedan,TFSI quattro 200 kW S tronic,MHEV,Otomatik,272,10790347,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389072+03:00,Audi,A6 Sedan,e-hybrid quattro 270 kW S tronic,PHEV,Otomatik,367,12625580,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389267+03:00,Audi,A6 Sportback e-tron,e-tron,Elektrik,Otomatik,322,8163250,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389307+03:00,Audi,A6 Sportback e-tron,e-tron performance,Elektrik,Otomatik,375,9460392,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389228+03:00,Audi,A6 Sportback e-tron,e-tron quattro,Elektrik,Otomatik,456,9879132,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389383+03:00,Audi,A8 L,50 TDI quattro tiptronic,Dizel,Otomatik,286,24459206,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389345+03:00,Audi,A8 L,55 TFSI quattro tiptronic,Benzin,Otomatik,340,24459206,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389467+03:00,Audi,Q2,advanced 35 TFSI S tronic,Benzin,Otomatik,150,3735775,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389505+03:00,Audi,Q3,35 TFSI S tronic,Benzin,Otomatik,150,5311292,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389544+03:00,Audi,Q3 Sportback,35 TFSI S tronic,Benzin,Otomatik,150,5465732,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389752+03:00,Audi,Q4 Sportback e-tron,40 e-tron,Elektrik,Otomatik,204,4891756,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389790+03:00,Audi,Q4 Sportback e-tron,45 e-tron,Elektrik,Otomatik,286,6054661,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389713+03:00,Audi,Q4 Sportback e-tron,55 e-tron quattro,Elektrik,Otomatik,340,6502015,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389669+03:00,Audi,Q4 e-tron,40 e-tron,Elektrik,Otomatik,204,4729750,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389582+03:00,Audi,Q4 e-tron,45 e-tron,Elektrik,Otomatik,286,5871541,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389621+03:00,Audi,Q4 e-tron,55 e-tron quattro,Elektrik,Otomatik,340,6318895,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389832+03:00,Audi,Q5,TDI quattro 150 kW S tronic,MHEV,Otomatik,204,9811024,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389873+03:00,Audi,Q5,TFSI quattro 150 kW S tronic,MHEV,Otomatik,204,9482164,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389911+03:00,Audi,Q5 Sportback,TDI quattro 150 kW S tronic,MHEV,Otomatik,204,10531924,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389949+03:00,Audi,Q5 Sportback,TFSI quattro 150 kW S tronic,MHEV,Otomatik,204,10203064,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390026+03:00,Audi,Q6 Sportback e-tron,e-tron quattro,Elektrik,Otomatik,360,9579609,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389988+03:00,Audi,Q6 e-tron,e-tron quattro,Elektrik,Otomatik,360,9340419,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390067+03:00,Audi,Q7,45 TFSI quattro tiptronic,MHEV,Otomatik,265,11589234,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390144+03:00,Audi,Q7,50 TDI quattro tiptronic,MHEV,Otomatik,286,14889926,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390105+03:00,Audi,Q7,55 TFSI quattro tiptronic,MHEV,Otomatik,340,15174854,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390260+03:00,Audi,Q8,45 TFSI quattro tiptronic,MHEV,Otomatik,265,13772832,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390222+03:00,Audi,Q8,50 TDI quattro tiptronic,MHEV,Otomatik,286,17697810,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390182+03:00,Audi,Q8,55 TFSI quattro tiptronic,MHEV,Otomatik,340,17987346,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390298+03:00,Audi,RS 3 Sedan,TFSI quattro S tronic,Benzin,Otomatik,400,11462732,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390337+03:00,Audi,RS 3 Sportback,TFSI quattro S tronic,Benzin,Otomatik,400,11164748,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390498+03:00,Audi,RS Q8,SUV performance quattro tiptronic,MHEV,Otomatik,640,28009267,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390421+03:00,Audi,RS e-tron GT,RS,Elektrik,Otomatik,775,16026840,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390459+03:00,Audi,RS e-tron GT,RS performance,Elektrik,Otomatik,843,17413470,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390536+03:00,Audi,S e-tron GT,S,Elektrik,Otomatik,591,13708209,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390574+03:00,Audi,S3 Sedan,TFSI quattro S tronic,Benzin,Otomatik,333,8574025,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390615+03:00,Audi,S3 Sportback,TFSI quattro S tronic,Benzin,Otomatik,333,8388697,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390662+03:00,Audi,S5 Avant,TFSI quattro S tronic,MHEV,Otomatik,367,15599404,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390701+03:00,Audi,S5 Sedan,TFSI quattro S tronic,MHEV,Otomatik,367,15279916,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390739+03:00,Audi,S8,TFSI quattro tiptronic,Benzin,Otomatik,571,29155507,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.389428+03:00,Audi,e-tron GT,quattro,Elektrik,Otomatik,503,12137766,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390780+03:00,BMW,120i,M Sport,MHEV,Otomatik,170,4283100,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390819+03:00,BMW,120i,Sport Line,MHEV,Otomatik,170,3724500,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390899+03:00,BMW,220 Gran Coupé,M Sport,MHEV,Otomatik,170,4479300,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390861+03:00,BMW,220 Gran Coupé,Sport Line,MHEV,Otomatik,170,4201000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390978+03:00,BMW,220i Active Tourer,Luxury Line,MHEV,Otomatik,170,4379500,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.390940+03:00,BMW,220i Active Tourer,M Sport,MHEV,Otomatik,170,4613200,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.391022+03:00,BMW,230e xDrive Active Tourer,Luxury Line,PHEV,Otomatik,326,5031800,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.391061+03:00,BMW,230e xDrive Active Tourer,M Sport,PHEV,Otomatik,326,5371800,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.391100+03:00,BMW,320i,M Sport,Benzin,Otomatik,170,6119800,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.391137+03:00,BMW,320i,Sport Line,Benzin,Otomatik,170,5648100,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.391176+03:00,BMW,420i Coupé,Edition M Sport,Benzin,Otomatik,170,7789600,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.391214+03:00,BMW,420i Coupé,M Sport,Benzin,Otomatik,170,6975000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.391252+03:00,BMW,420i Gran Coupé,Edition M Sport,Benzin,Otomatik,170,7396900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.391290+03:00,BMW,420i Gran Coupé,M Sport,Benzin,Otomatik,170,6586700,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.391328+03:00,BMW,430i xDrive Cabrio,M Sport,Benzin,Otomatik,245,10120600,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.391408+03:00,BMW,520d xDrive,Edition M Sport 2023,MHEV,Otomatik,197,12387400,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.391446+03:00,BMW,520d xDrive,M Sport,MHEV,Otomatik,197,11254800,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.391483+03:00,BMW,520i,Edition M Sport 2023,MHEV,Otomatik,190,9119400,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.391521+03:00,BMW,520i,M Sport,MHEV,Otomatik,190,8569600,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.391598+03:00,BMW,740d xDrive,M Excellence,MHEV,Otomatik,300,21870500,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.391559+03:00,BMW,740d xDrive,Pure Excellence,MHEV,Otomatik,300,20818200,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.392308+03:00,BMW,M2 Coupé,M,Benzin,Otomatik,480,14713700,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.392424+03:00,BMW,M3 Competition Sedan,M xDrive,Benzin,Otomatik,530,18562700,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.392462+03:00,BMW,M3 Competition Touring,M,Benzin,Otomatik,530,18847900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.392503+03:00,BMW,M4 Competition Cabrio,M,Benzin,Otomatik,530,19648500,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.392541+03:00,BMW,M4 Competition Coupé,M,Benzin,Otomatik,530,19269000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.392581+03:00,BMW,M5,M,PHEV,Otomatik,727,24376300,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.392619+03:00,BMW,M5 Touring,M,PHEV,Otomatik,727,24722800,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.392669+03:00,BMW,X1 M35i xDrive,M,Benzin,Otomatik,300,8349100,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.392708+03:00,BMW,X1 sDrive20i,M Sport,MHEV,Otomatik,170,5015400,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.392746+03:00,BMW,X1 sDrive20i,X Line,MHEV,Otomatik,170,4753800,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.392825+03:00,BMW,X1 xDrive25e,M Sport,PHEV,Otomatik,245,5739800,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.392785+03:00,BMW,X1 xDrive25e,X Line,PHEV,Otomatik,245,5469400,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.392864+03:00,BMW,X2 M35i xDrive,M,Benzin,Otomatik,300,8430700,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.392901+03:00,BMW,X2 sDrive20i,M Sport,MHEV,Otomatik,170,5544400,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.392979+03:00,BMW,X3 20,M Sport,MHEV,Otomatik,190,7316600,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.392939+03:00,BMW,X3 20,X Line,MHEV,Otomatik,190,6853400,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.393092+03:00,BMW,X5 xDrive40d,M Sport,MHEV,Otomatik,352,18679500,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.393167+03:00,BMW,X6 xDrive40d,M Sport,MHEV,Otomatik,352,18720900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.393206+03:00,BMW,X7 xDrive40d,M Excellence,MHEV,Otomatik,352,24215000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.391649+03:00,BMW,i4 eDrive40,Edition M Sport,Elektrik,Otomatik,218,6643800,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.391689+03:00,BMW,i4 eDrive40,M Sport,Elektrik,Otomatik,218,6032400,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.391766+03:00,BMW,i5 M60 xDrive,M,Elektrik,Otomatik,601,10017800,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.391807+03:00,BMW,i5 M60 xDrive Touring,M,Elektrik,Otomatik,601,10101700,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.391727+03:00,BMW,i5 eDrive40,M Sport,Elektrik,Otomatik,218,7319700,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.391887+03:00,BMW,i5 xDrive40 Touring,M Sport,Elektrik,Otomatik,394,8159300,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.391925+03:00,BMW,i7 M70 xDrive,M,Elektrik,Otomatik,659,15909400,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.391963+03:00,BMW,i7 xDrive60,M Excellence,Elektrik,Otomatik,544,14709200,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.392000+03:00,BMW,i7 xDrive60,Pure Excellence,Elektrik,Otomatik,544,14188000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.392039+03:00,BMW,iX M70 xDrive,M,Elektrik,Otomatik,659,11157000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.392077+03:00,BMW,iX xDrive60,M Sport,Elektrik,Otomatik,544,10453600,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.392152+03:00,BMW,iX1 eDrive20,M Sport,Elektrik,Otomatik,204,4513400,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.392114+03:00,BMW,iX1 eDrive20,X Line,Elektrik,Otomatik,204,4350400,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.392192+03:00,BMW,iX2 eDrive20,M Sport,Elektrik,Otomatik,204,4498600,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.392270+03:00,BMW,iX3 50 xDrive,M Sport,Elektrik,Otomatik,218,6755300,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.393440+03:00,BYD,Han,Executive,Elektrik,Otomatik,517,4873000,4573000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.393515+03:00,BYD,Seal,AWD Excellence,Elektrik,Otomatik,530,4077000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.393674+03:00,BYD,Sealion 7,Excellence,Elektrik,Otomatik,530,4190000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.393715+03:00,BYD,Tang,Flagship,Elektrik,Otomatik,517,5418000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.393757+03:00,Chery,Tiggo 7,Comfort,Benzin,7 İleri Otomatik DCT,145,2175000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.393835+03:00,Chery,Tiggo 7,Prestige,Benzin,7 İleri Otomatik DCT,145,2580000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.393797+03:00,Chery,Tiggo 7,Prestige 4x4,Benzin,7 İleri Otomatik DCT,145,2720000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.393877+03:00,Chery,Tiggo 8,Prestige,Benzin,7 İleri Otomatik DCT,145,2920000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.394034+03:00,Citroen,Ami,Ami,Elektrik,Otomatik,86,590000,560000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.393918+03:00,Citroen,Ami,Ami Dark Side,Elektrik,Otomatik,86,605000,575000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.393957+03:00,Citroen,Ami,Ami Sunrise,Elektrik,Otomatik,86,630000,600000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.394074+03:00,Citroen,C3 Aircross,Max,MHEV,Çift Kavramalı Otomatik 6 İleri,145,2260000,2160000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.394115+03:00,Citroen,C3 Aircross,Plus,MHEV,Çift Kavramalı Otomatik 6 İleri,145,2155000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.394236+03:00,Citroen,C4,Max,MHEV,Çift Kavramalı Otomatik 6 İleri,145,2242000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.394197+03:00,Citroen,C4,You,MHEV,Çift Kavramalı Otomatik 6 İleri,145,2061000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.394313+03:00,Citroen,C4 X,Max,MHEV,Çift Kavramalı Otomatik 6 İleri,145,2262000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.394275+03:00,Citroen,C4 X,You,MHEV,Çift Kavramalı Otomatik 6 İleri,145,2061000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.394351+03:00,Citroen,C5 Aircross,Max,MHEV,Çift Kavramalı Otomatik 6 İleri,145,2960000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.394390+03:00,Citroen,C5 Aircross,Plus,MHEV,Çift Kavramalı Otomatik 6 İleri,145,2710000,2599000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.394431+03:00,Citroen,e-C3,Max,Elektrik,Otomatik,11383,1660000,1520000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.394469+03:00,Citroen,e-C3,Plus,Elektrik,Otomatik,11383,1595000,1470000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.394509+03:00,Citroen,e-C3 Aircross,Max Standart Menzil,Elektrik,Otomatik,11383,1790000,1600000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.394550+03:00,Citroen,e-C3 Aircross,Max Uzun Menzil,Elektrik,Otomatik,11383,1930000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.394588+03:00,Citroen,e-C4,Max,Elektrik,Tek Vitesli Redüktör,115156,2295000,2100000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.394635+03:00,Citroen,e-C4 X,Max,Elektrik,Tek Vitesli Redüktör,115156,2255000,2100000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.394675+03:00,Citroen,e-C5 Aircross,Plus,Elektrik,Otomatik,210157,2430000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.394854+03:00,Dacia,Jogger,Extreme,LPG,EDC Çift Kavramalı Otomatik,120,1850000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.394893+03:00,Dacia,Jogger,Extreme,LPG,6 İleri Manuel,120,1710000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.394931+03:00,Dacia,Jogger,Extreme,Benzin,6 İleri Manuel,110,1600000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.395006+03:00,Dacia,Sandero,Essential,Benzin,6 İleri Manuel,100,1299000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.395048+03:00,Dacia,Sandero,Expression,Benzin,6 İleri Manuel,100,1433000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.395087+03:00,Dacia,Sandero Stepway,Expression,LPG,EDC Çift Kavramalı Otomatik,120,1756000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.395128+03:00,Dacia,Sandero Stepway,Extreme,LPG,EDC Çift Kavramalı Otomatik,120,1821000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.395223+03:00,Fiat,Egea Cross,Limited,Dizel,6 İleri Otomatik,13096,2090500,1990500,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.395262+03:00,Fiat,Egea Cross,Lounge,Dizel,6 İleri Otomatik,13096,2050500,1950500,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.395302+03:00,Fiat,Egea Cross,Street,Dizel,6 İleri Otomatik,13096,1950500,1850500,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.395183+03:00,Fiat,Egea Cross,Urban,Dizel,6 İleri Otomatik,13096,1980500,1880500,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.395342+03:00,Fiat,Egea Sedan,Easy,Dizel,6 İleri Otomatik,13096,1889900,1789900,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.395539+03:00,Fiat,Egea Sedan,Easy,Dizel,6 İleri Manuel,13096,1499900,1384900,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.395381+03:00,Fiat,Egea Sedan,Lounge,Dizel,6 İleri Otomatik,13096,2029900,1929900,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.395420+03:00,Fiat,Egea Sedan,Lounge,Dizel,6 İleri Manuel,13096,1674900,1559900,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.395461+03:00,Fiat,Egea Sedan,Urban,Dizel,6 İleri Otomatik,13096,1959900,1859900,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.395500+03:00,Fiat,Egea Sedan,Urban,Dizel,6 İleri Manuel,13096,1599900,1489900,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.395620+03:00,Fiat,Fiat 500e,Giorgio Armani,Elektrik,Tek Vitesli Redüktör Otomatik,11887,2289900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.395670+03:00,Fiat,Fiat 500e,La Prima Cabrio,Elektrik,Tek Vitesli Redüktör Otomatik,11887,2149900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.395791+03:00,Fiat,Fiat 600,La Prima,Elektrik,Tek Vitesli Redüktör Şanzıman,156115,1989900,1854900,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.395877+03:00,Fiat,Grande Panda,Icon,MHEV,6 İleri eDCT Otomatik,11081,1669900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.395831+03:00,Fiat,Grande Panda,La Prima,Elektrik,Tek Vitesli Redüktör Şanzıman,11383,1594900,1494900,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.395917+03:00,Fiat,Grande Panda,La Prima,MHEV,6 İleri eDCT Otomatik,11081,1789900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.395963+03:00,Fiat,Topolino,,Elektrik,Otomatik,8,609900,559900,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.396006+03:00,Fiat,Topolino,Plus Paket,Elektrik,Otomatik,8,634900,584900,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.396090+03:00,Ford,Capri,Premium,Elektrik,Otomatik,170125,3211600,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.396131+03:00,Ford,Capri,Premium,Elektrik,Otomatik,340250,4330000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.396171+03:00,Ford,Explorer,Premium,Elektrik,Otomatik,340250,4217200,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.396253+03:00,Ford,Explorer,Premium,Elektrik,Otomatik,170125,2457300,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.396213+03:00,Ford,Explorer,Select,Elektrik,Otomatik,170125,2232300,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.396297+03:00,Ford,F-150,STX SuperCab,Benzin,10 İleri Otomatik,330,8168400,8005800,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.396338+03:00,Ford,F-150,XLT SuperCab,Benzin,10 İleri Otomatik,330,8889400,8712400,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.396379+03:00,Ford,Focus,Yeni Titanium Stil,Dizel,8 İleri Otomatik,115,2863100,2720500,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.396420+03:00,Ford,Focus,Yeni Titanium X,Dizel,8 İleri Otomatik,115,3009800,2859900,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.396538+03:00,Ford,Kuga,Active-X,Benzin,8 İleri Otomatik,186,3163300,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.396500+03:00,Ford,Kuga,ST-Line,Benzin,8 İleri Otomatik,186,3116700,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.396462+03:00,Ford,Kuga,ST-Line X,Benzin,8 İleri Otomatik,186,3455000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.396575+03:00,Ford,Kuga,Titanium,Benzin,8 İleri Otomatik,186,2780900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.396704+03:00,Ford,Puma,ST,MHEV,7 İleri Otomatik,160117,2869900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.396663+03:00,Ford,Puma,ST-Line X,MHEV,7 İleri Otomatik,155114,2615600,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.396613+03:00,Ford,Puma,Titanium,MHEV,7 İleri Otomatik,12592,2238900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.396744+03:00,Ford,Puma Gen-E,Premium,Elektrik,1 İleri Otomatik,1681235,2202600,2158700,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.396976+03:00,Honda,CR-V e:HEV,,HEV,Otomatik,184,6160000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.397017+03:00,Honda,HR-V e:HEV,Advance,HEV,Otomatik,131,2810000,2670000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.397061+03:00,Honda,HR-V e:HEV,Elegance,HEV,Otomatik,131,2659000,2389000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.397104+03:00,Honda,HR-V e:HEV,Style+,HEV,Otomatik,131,3060000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.397145+03:00,Honda,Jazz e:HEV,Crosstar,HEV,Otomatik,122,2525000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.397186+03:00,Honda,Prelude e:HEV,Advance,HEV,Otomatik,184,5600000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.397227+03:00,Honda,ZR-V e:HEV,Advance,HEV,Otomatik,184,4970000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.397557+03:00,Hyundai,Bayon,Elite,Benzin,7 İleri DCT Otomatik,9066,2103000,1968000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.397515+03:00,Hyundai,Bayon,Elite GSR II-C,Benzin,7 İleri DCT Otomatik,9066,2115000,1980000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.397269+03:00,Hyundai,Bayon,Jump,Benzin,6 İleri Manuel,9066,1587000,1570000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.397469+03:00,Hyundai,Bayon,Jump,Benzin,7 İleri DCT Otomatik,9066,1647000,1567000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.397310+03:00,Hyundai,Bayon,Style,Benzin,7 İleri DCT Otomatik,9066,1965000,1770666,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.397351+03:00,Hyundai,Bayon,Style GSR II-C,Benzin,7 İleri DCT Otomatik,9066,1980000,1785248,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.397651+03:00,Hyundai,Inster,Advance,Elektrik,Tek Hız Otomatik,11584,1790000,1640000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.397602+03:00,Hyundai,Inster,Cross Advance,Elektrik,Tek Hız Otomatik,11584,1840000,1690000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.397690+03:00,Hyundai,Inster,Dynamic,Elektrik,Tek Hız Otomatik,9771,1550000,1400000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.397920+03:00,Hyundai,Ioniq 5,Advance,Elektrik,Tek Hız Otomatik,218160,3490000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.397729+03:00,Hyundai,Ioniq 5,Dynamic Vision Roof,Elektrik,Tek Hız Otomatik,170125,3150000,2484602,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.397959+03:00,Hyundai,Ioniq 5 N,N,Elektrik,Tek Hız Otomatik,609448,6205000,5800000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.398110+03:00,Hyundai,Ioniq 9,Calligraphy,Elektrik,Tek Hız Otomatik,308226,6960000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.398148+03:00,Hyundai,Ioniq 9,Progressive,Elektrik,Tek Hız Otomatik,218160,5810000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.398613+03:00,Hyundai,Kona,Prime,Benzin,7 İleri DCT Otomatik,170125,2384050,2303050,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.398661+03:00,Hyundai,Kona Elektrik,Advance,Elektrik,Tek Hız Otomatik,13599,2377500,2237500,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.398704+03:00,Hyundai,Santa Fe Hibrit,Progressive,HEV,6 İleri Otomatik,215158,5950000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.398742+03:00,Hyundai,Staria,Elite,HEV,6 İleri Otomatik,225165,2721000,2590000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.398818+03:00,Hyundai,Tucson,Comfort,Benzin,7 İleri DCT Otomatik,160118,2577000,2386974,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.398973+03:00,Hyundai,Tucson,Elite,Benzin,7 İleri DCT Otomatik,160118,3378000,3248000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.399014+03:00,Hyundai,Tucson,Elite,HEV,6 İleri Otomatik,215158,3720000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.398897+03:00,Hyundai,Tucson,Prime,Benzin,7 İleri DCT Otomatik,160118,2771000,2679000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.398349+03:00,Hyundai,i20,Elite,Benzin,7 İleri DCT Otomatik,9066,1978000,1805304,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.398270+03:00,Hyundai,i20,Elite GSR II-C,Benzin,7 İleri DCT Otomatik,9066,1993000,1819887,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.398190+03:00,Hyundai,i20,Jump,Benzin,6 İleri Manuel,9066,1487000,1480000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.398387+03:00,Hyundai,i20,Jump,Benzin,7 İleri DCT Otomatik,9066,1654000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.398463+03:00,Hyundai,i20,Style,Benzin,7 İleri DCT Otomatik,9066,1816000,1686000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.398232+03:00,Hyundai,i20,Style GSR II-C,Benzin,7 İleri DCT Otomatik,9066,1831000,1701000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.398501+03:00,Hyundai,i30,Comfort,Benzin,7 İleri DCT Otomatik,150110,1944000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.398538+03:00,Hyundai,i30,Prime,Benzin,7 İleri DCT Otomatik,150110,2250000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.399272+03:00,KGM,Actyon,Standart,Benzin,6 İleri Otomatik,163,3450000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.399311+03:00,KGM,Korando,Standart,Benzin,6 İleri Otomatik,163,2250000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.399350+03:00,KGM,Musso EV,Standart,Elektrik,Otomatik,207,2454874,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.399390+03:00,KGM,Musso Grand,Standart,Dizel,6 İleri Otomatik,202,2065000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.399507+03:00,KGM,Torres,AWD,Benzin,6 İleri Otomatik,163,2950000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.399469+03:00,KGM,Torres,Standart,Benzin,6 İleri Otomatik,163,2935000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.399548+03:00,KGM,Torres EVX,Standart,Elektrik,Otomatik,207,2474830,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.399711+03:00,Kia,EV3,Elegance,Elektrik,Otomatik,204,2485000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.399636+03:00,Kia,EV3,GT-Line,Elektrik,Otomatik,204,3760000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.399785+03:00,Kia,EV3,Prestige,Elektrik,Otomatik,204,2485000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.399823+03:00,Kia,EV6,Elegance,Elektrik,Otomatik,170,3760000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.399899+03:00,Kia,EV9,GT-Line,Elektrik,Otomatik,384,7870000,7620000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.399861+03:00,Kia,EV9,Prestige,Elektrik,Otomatik,203,6540000,6290000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.399978+03:00,Kia,Niro EV,Elegance,Elektrik,Tek Hız Otomatik,204150,2299000,2199000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.400054+03:00,Kia,Picanto,Cool,Benzin,Otomatik,68,1435000,1335000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.400017+03:00,Kia,Picanto,Feel,Benzin,5 İleri AMT,6850,1460000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.400096+03:00,Kia,Sorento,Prestige Smart,HEV,Otomatik,239,6390000,6190000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.400136+03:00,Kia,Sorento,Prestige Smart,HEV,Otomatik,239,6530000,6330000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.400250+03:00,Kia,Sportage,Cool,Benzin,Otomatik,150,2750000,2600000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.400174+03:00,Kia,Sportage,Elegance,Benzin,Otomatik,150,3075000,2925000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.400288+03:00,Kia,Sportage,GT-Line,Benzin,Otomatik,180,3650000,3350000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.400327+03:00,Kia,Sportage,Live,Benzin,Otomatik,150,2249000,2099000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.400212+03:00,Kia,Sportage,Prestige,Benzin,Otomatik,150,3340000,3240000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.400402+03:00,Kia,Stonic,Cool,Benzin,Otomatik,100,1960000,1830000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.403259+03:00,MINI,Cooper 3 Kapı,Favoured,Benzin,7 İleri Steptronic Otomatik,156115,3342400,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.403212+03:00,MINI,Cooper 3 Kapı,JCW,Benzin,7 İleri Steptronic Otomatik,156115,3780100,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.403346+03:00,MINI,Cooper 5 Kapı,Favoured,Benzin,7 İleri Steptronic Otomatik,156115,3267300,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.403391+03:00,MINI,Cooper JCW 3 Kapı,JCW,Benzin,7 İleri Steptronic Otomatik,231170,6505500,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.403435+03:00,MINI,Cooper JCW Cabrio,JCW,Benzin,7 İleri Steptronic Otomatik,231170,6785400,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.403517+03:00,MINI,Cooper S 3 Kapı,Favoured,Benzin,7 İleri Steptronic Otomatik,204150,5531900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.403602+03:00,MINI,Cooper S Cabrio,Favoured,Benzin,7 İleri Steptronic Otomatik,204150,6216200,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.403728+03:00,MINI,Countryman C,Dark Edition,MHEV,7 İleri Steptronic Otomatik,170125,3780100,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.403650+03:00,MINI,Countryman C,Favoured,MHEV,7 İleri Steptronic Otomatik,170125,3780100,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.403767+03:00,MINI,Countryman C,JCW,MHEV,7 İleri Steptronic Otomatik,170125,4836300,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.403690+03:00,MINI,Countryman C,Trail Edition,MHEV,7 İleri Steptronic Otomatik,170125,4400700,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.403846+03:00,MINI,Countryman E,JCW,Elektrik,Otomatik,204150,3977600,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.403926+03:00,MINI,Countryman JCW ALL4,JCW,Benzin,7 İleri Steptronic Otomatik,300221,7048500,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.403965+03:00,MINI,Countryman S ALL4,JCW,MHEV,7 İleri Steptronic Otomatik,218160,6868700,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.404007+03:00,MINI,Countryman SE ALL4,JCW,Elektrik,Otomatik,313230,5692800,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.400707+03:00,Mercedes-Benz,A 200 FL,AMG,MHEV,Otomatik,120,3222000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.400791+03:00,Mercedes-Benz,C 200 4MATIC,140th Year Edition,,Otomatik,,7136000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.400747+03:00,Mercedes-Benz,C 200 4MATIC,AMG,MHEV,Otomatik,204,6358000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.400834+03:00,Mercedes-Benz,C 200 4MATIC All-Terrain,Premium,MHEV,Otomatik,150,6002000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.400880+03:00,Mercedes-Benz,CLA 200+,AMG,,Otomatik,,4191000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.400924+03:00,Mercedes-Benz,CLA 220 4MATIC,AMG,HEV,Otomatik,220,4873000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.400969+03:00,Mercedes-Benz,CLA 220 4MATIC Shooting Brake,AMG,,Otomatik,,5017000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.401098+03:00,Mercedes-Benz,CLE 300 4MATIC,Cabriolet,MHEV,Otomatik,258,9406000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.401055+03:00,Mercedes-Benz,CLE 300 4MATIC,Coupé,MHEV,Otomatik,258,8389000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.401140+03:00,Mercedes-Benz,E 180,AMG,MHEV,Otomatik,170,8416000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.401181+03:00,Mercedes-Benz,E 180,Exclusive,MHEV,Otomatik,170,8349000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.401264+03:00,Mercedes-Benz,E 220 d 4MATIC,AMG,MHEV,Otomatik,197,11450500,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.401222+03:00,Mercedes-Benz,E 220 d 4MATIC,Exclusive,MHEV,Otomatik,197,11367500,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.401394+03:00,Mercedes-Benz,EQA 250+ FL,Night Edition,Elektrik,Otomatik,190,4345000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.401435+03:00,Mercedes-Benz,EQE 280,AMG,Elektrik,Otomatik,218,5930500,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.401478+03:00,Mercedes-Benz,EQE 350 4MATIC,AMG,Elektrik,Otomatik,,6775500,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.401522+03:00,Mercedes-Benz,EQS 450 4MATIC,Inspiration,Elektrik,Otomatik,,10108500,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.401565+03:00,Mercedes-Benz,EQS 580 4MATIC,Heritage Edition,Elektrik,Otomatik,,11829500,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.401607+03:00,Mercedes-Benz,G 450 d,Heritage,MHEV,Otomatik,367,22017000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.401659+03:00,Mercedes-Benz,G 500,Heritage,,Otomatik,,23436000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.401703+03:00,Mercedes-Benz,G 580,Heritage,Elektrik,Otomatik,587,15715000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.401746+03:00,Mercedes-Benz,GLA 200 FL,AMG,MHEV,Otomatik,163,4619500,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.401793+03:00,Mercedes-Benz,GLB 200+,AMG,Elektrik,Otomatik,218,4350000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.401837+03:00,Mercedes-Benz,GLB 220 4MATIC,AMG,,Otomatik,,4990000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.401880+03:00,Mercedes-Benz,GLC 180,AMG,,Otomatik,,6957500,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.401921+03:00,Mercedes-Benz,GLC 180 Coupé,AMG,MHEV,Otomatik,170,7341000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.401965+03:00,Mercedes-Benz,GLC 300 d 4MATIC,AMG,,Otomatik,,9241000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.402009+03:00,Mercedes-Benz,GLC 400 4MATIC,Edition 1 AMG,,Otomatik,,6950000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.402052+03:00,Mercedes-Benz,GLE 300 d 4MATIC,AMG,,Otomatik,,13465000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.402097+03:00,Mercedes-Benz,GLE 300 d 4MATIC Coupé,AMG,,Otomatik,,13940000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.402140+03:00,Mercedes-Benz,GLS 450 d 4MATIC,AMG,,Otomatik,,21315000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.402182+03:00,Mercedes-Benz,Mercedes-AMG A 45 S 4MATIC+ FL,Final Edition,Benzin,Otomatik,421,7058000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.402231+03:00,Mercedes-Benz,Mercedes-AMG C 43 4MATIC,Performance,,Otomatik,,8451000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.402280+03:00,Mercedes-Benz,Mercedes-AMG C 63 S E PERFORMANCE,Estate,PHEV,Otomatik,680,13179000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.402324+03:00,Mercedes-Benz,Mercedes-AMG C 63 S E PERFORMANCE,Sedan,PHEV,Otomatik,680,13095000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.402366+03:00,Mercedes-Benz,Mercedes-AMG CLE 53 4MATIC+,Coupé,MHEV,Otomatik,449,13692000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.402409+03:00,Mercedes-Benz,Mercedes-AMG E 53 Hybrid 4MATIC+,Sedan,PHEV,Otomatik,585,20839000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.402491+03:00,Mercedes-Benz,Mercedes-AMG G 63,Performance,MHEV,Otomatik,585,30448000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.402537+03:00,Mercedes-Benz,Mercedes-AMG GLC 43 4MATIC,Performance,,Otomatik,,10219000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.402582+03:00,Mercedes-Benz,Mercedes-AMG GLC 43 4MATIC Coupé,Performance,,Otomatik,,10672000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.402635+03:00,Mercedes-Benz,Mercedes-AMG GLC 63 S E PERFORMANCE,,PHEV,Otomatik,,14694000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.402683+03:00,Mercedes-Benz,Mercedes-AMG GLC 63 S E PERFORMANCE Coupé,,PHEV,Otomatik,,15295000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.402727+03:00,Mercedes-Benz,Mercedes-AMG GT 43,,MHEV,Otomatik,421,16675000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.402774+03:00,Mercedes-Benz,Mercedes-AMG GT 63 4MATIC+,,Benzin,Otomatik,585,28640000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.402821+03:00,Mercedes-Benz,Mercedes-AMG GT 63 PRO 4MATIC+,,Benzin,Otomatik,612,33191000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.402864+03:00,Mercedes-Benz,Mercedes-AMG SL 43,,MHEV,Otomatik,421,16772500,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.402908+03:00,Mercedes-Benz,Mercedes-AMG SL 63 4MATIC+,,Benzin,Otomatik,585,27820000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.402952+03:00,Mercedes-Benz,Mercedes-Maybach GLS 600,Inspiration+,,Otomatik,,31665000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.403038+03:00,Mercedes-Benz,Mercedes-Maybach SL 680,Monogram Series,Benzin,Otomatik,585,38034000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.403082+03:00,Mercedes-Benz,S 450 d 4MATIC L,Inspiration,,Otomatik,,22850000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.404083+03:00,Nissan,Juke,Platinum,Benzin,7 İleri DCT Otomatik,11584,2415600,2093200,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.404122+03:00,Nissan,Juke,Platinum Premium,Benzin,7 İleri DCT Otomatik,11584,2781900,2681900,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.404197+03:00,Nissan,Juke,Tekna Plus,Benzin,7 İleri DCT Otomatik,11584,2291700,1899000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.404274+03:00,Nissan,Qashqai,Designpack,MHEV,X-Tronic CVT,158116,2796900,2249000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.404712+03:00,Nissan,Qashqai,Designpack,HEV,e-POWER CVT,190140,3607000,3507000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.404751+03:00,Nissan,Qashqai,N-Design,HEV,e-POWER CVT,190140,4179600,4079600,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.404393+03:00,Nissan,Qashqai,Platinum,MHEV,X-Tronic CVT,158116,3721500,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.404472+03:00,Nissan,Qashqai,Platinum,MHEV,X-Tronic CVT,158116,3866800,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.404829+03:00,Nissan,Qashqai,Platinum,HEV,e-POWER CVT,190140,4307500,4207500,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.404353+03:00,Nissan,Qashqai,Platinum Premium,HEV,e-POWER CVT,190140,4453000,4053000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.404511+03:00,Nissan,Qashqai,Platinum Premium,MHEV,X-Tronic CVT,158116,3871100,3599200,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.404550+03:00,Nissan,Qashqai,Platinum Premium,MHEV,X-Tronic CVT,158116,3990300,3710000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.404314+03:00,Nissan,Qashqai,Skypack,MHEV,X-Tronic CVT,158116,3223200,2727300,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.404431+03:00,Nissan,Qashqai,Skypack,MHEV,X-Tronic CVT,158116,3430400,2914100,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.404791+03:00,Nissan,Qashqai,Skypack,HEV,e-POWER CVT,190140,3842900,3742900,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.404868+03:00,Nissan,X-Trail,Platinum,MHEV,X-Tronic CVT,163120,5098300,4998300,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.404909+03:00,Nissan,X-Trail,Platinum Premium,MHEV,X-Tronic CVT,163120,5615600,5515600,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.404965+03:00,Opel,Astra,Edition,Dizel,8 İleri AT Otomatik,130,2360000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.405003+03:00,Opel,Astra,GS,Dizel,Otomatik,130,2590000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.405119+03:00,Opel,Corsa,Edition,MHEV,Otomatik,110,1999000,1695000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.405198+03:00,Opel,Corsa,Edition,Benzin,Manuel,100,1535000,1390000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.405080+03:00,Opel,Corsa,GS,Elektrik,Otomatik,136,2101000,1801000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.405157+03:00,Opel,Corsa,GS,MHEV,Otomatik,136,2119000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.405387+03:00,Opel,Frontera,Edition,MHEV,Otomatik,136,2221000,1870000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.405310+03:00,Opel,Frontera,GS,MHEV,Otomatik,136,2342000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.405348+03:00,Opel,Frontera,GS,Elektrik,Otomatik,11383,1894000,1650000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.405425+03:00,Opel,Frontera,GS,Elektrik,Otomatik,11383,2009000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.405465+03:00,Opel,Grandland,AWD GS,Elektrik,Otomatik,325,4222000,3874000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.405504+03:00,Opel,Grandland,Edition,Elektrik,Otomatik,210,2485000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.405545+03:00,Opel,Grandland,Edition,MHEV,e-DCT6 Otomatik,136,2850000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.405586+03:00,Opel,Grandland,GS,MHEV,e-DCT6 Otomatik,136,3179000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.405673+03:00,Opel,Mokka,Edition,Benzin,Manuel,136,1988000,1800000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.405751+03:00,Opel,Mokka,GS,MHEV,Otomatik,136,2650000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.405634+03:00,Opel,Mokka,GSE,Elektrik,Otomatik,281207,3570000,3250000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.405827+03:00,Peugeot,2008,Allure,MHEV,Otomatik,145,2353000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.405902+03:00,Peugeot,2008,GT,MHEV,Otomatik,145,2580000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.406129+03:00,Peugeot,3008,Allure,Elektrik,Otomatik,210,3318000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.406169+03:00,Peugeot,3008,Allure,MHEV,Otomatik,145,2851000,2649000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.405978+03:00,Peugeot,3008,GT,MHEV,Otomatik,145,3259000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.406015+03:00,Peugeot,3008,GT,Elektrik,Otomatik,210,3514500,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.406208+03:00,Peugeot,408,Allure,MHEV,Otomatik,145,2580000,2330000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.406253+03:00,Peugeot,408,GT,MHEV,Otomatik,145,2910000,2745000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.406291+03:00,Peugeot,5008,Allure,MHEV,Otomatik,145,3290000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.406328+03:00,Peugeot,5008,GT,Elektrik,Otomatik,210,3644000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.406369+03:00,Peugeot,5008,GT,MHEV,Otomatik,145,3600000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.406646+03:00,Peugeot,E-5008,Allure,Elektrik,Otomatik,210,3502000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.406450+03:00,Peugeot,e-2008,Allure,Elektrik,Otomatik,156,2201500,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.406409+03:00,Peugeot,e-2008,GT,Elektrik,Otomatik,156,2308500,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.406562+03:00,Peugeot,e-208,GT,Elektrik,Otomatik,136,1999500,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.406768+03:00,Renault,Austral,Esprit Alpine,HEV,Multimode Otomatik,200146,3650000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.406809+03:00,Renault,Austral,Esprit Alpine,MHEV,CVT Otomatik,150109,3130000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.406686+03:00,Renault,Austral,Techno,MHEV,CVT Otomatik,150109,2875000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.406963+03:00,Renault,Boreal,Evolution,Benzin,6 İleri EDC Otomatik,145106,2379000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.406847+03:00,Renault,Boreal,Iconic,Benzin,6 İleri EDC Otomatik,145106,3049000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.406924+03:00,Renault,Boreal,Iconic,HEV,Multimode Otomatik,160116,3399000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.406886+03:00,Renault,Boreal,Techno,Benzin,6 İleri EDC Otomatik,145106,2699000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.407001+03:00,Renault,Captur,Techno,MHEV,7 İleri EDC Otomatik,140104,2325000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.407234+03:00,Renault,Clio,Esprit Alpine,Benzin,7 İleri EDC Otomatik,11584,2035000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.407157+03:00,Renault,Clio,Evolution Plus,Benzin,7 İleri EDC Otomatik,11584,1830000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.407432+03:00,Renault,Duster,Evolution,HEV,6 İleri Otomatik,150113,2750000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.407470+03:00,Renault,Duster,Evolution,LPG,6 İleri Manuel,12090,1865000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.407549+03:00,Renault,Duster,Evolution,Benzin,7 İleri EDC Otomatik,145106,2010000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.407349+03:00,Renault,Duster,Techno,Benzin,7 İleri EDC Otomatik,145106,2080000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.407393+03:00,Renault,Duster,Techno,HEV,Çok Modlu Otomatik,160116,2570000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.407635+03:00,Renault,Duster,Techno,HEV,6 İleri Otomatik,150113,2800000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.407713+03:00,Renault,Megane E-Tech,Esprit Alpine,Elektrik,Otomatik,220160,2486000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.407674+03:00,Renault,Megane E-Tech,Techno,Elektrik,Otomatik,220160,2386000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.407752+03:00,Renault,Megane Sedan,Icon,Dizel,7 İleri EDC Otomatik,11585,2699000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.407906+03:00,Renault,Megane Sedan,Icon,Benzin,7 İleri EDC Otomatik,140104,2349000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.407789+03:00,Renault,Megane Sedan,Touch,Benzin,7 İleri EDC Otomatik,140104,2199000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.407865+03:00,Renault,Megane Sedan,Touch,Benzin,6 İleri Manuel,140104,1841000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.407947+03:00,Renault,Rafale,Esprit Alpine,HEV,Multimode Otomatik,200146,4050000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.408024+03:00,Renault,Renault 5,Techno,Elektrik,Otomatik,12090,1886000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.408062+03:00,Renault,Renault 5,Techno,Elektrik,Otomatik,150110,2099000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.408101+03:00,Renault,Scenic E-Tech,Esprit Alpine,Elektrik,Otomatik,220160,3490000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.408202+03:00,Skoda,Elroq,60 e-Prestige,Elektrik,Otomatik,204150,3314900,2481600,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.408316+03:00,Skoda,Enyaq,60 e-Prestige,Elektrik,Otomatik,204150,3999900,3699900,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.408398+03:00,Skoda,Enyaq Coupe,60 e-Sportline,Elektrik,Otomatik,204,4099900,3793500,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.408357+03:00,Skoda,Enyaq Coupe,e-RS 4x4,Elektrik,Otomatik,340,5499900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.408590+03:00,Skoda,Fabia,Monte Carlo,Benzin,7 İleri DSG Otomatik,150110,2269900,2192200,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.408549+03:00,Skoda,Fabia,Monte Carlo 130 Edition,Benzin,7 İleri DSG Otomatik,177130,2729900,2389900,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.408641+03:00,Skoda,Fabia,Premium,Benzin,7 İleri DSG Otomatik,11585,1969900,1840500,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.408761+03:00,Skoda,Kamiq,Elite,Benzin,7 İleri DSG Otomatik,11585,2099900,1864200,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.408803+03:00,Skoda,Kamiq,Monte Carlo,Benzin,7 İleri DSG Otomatik,150110,2829900,2375400,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.408842+03:00,Skoda,Kamiq,Premium,Benzin,7 İleri DSG Otomatik,150110,2659900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.408880+03:00,Skoda,Kamiq,Premium,Benzin,7 İleri DSG Otomatik,11585,2519900,2049100,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.408996+03:00,Skoda,Karoq,Premium,Benzin,7 İleri DSG Otomatik,150110,3249900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.408918+03:00,Skoda,Karoq,Prestige,Benzin,7 İleri DSG Otomatik,150110,3639900,3035900,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.408959+03:00,Skoda,Karoq,Sportline,Benzin,7 İleri DSG Otomatik,150110,3739900,3356200,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.409304+03:00,Skoda,Kodiaq,Premium,MHEV,7 İleri DSG Otomatik,150110,4049900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.409265+03:00,Skoda,Kodiaq,Prestige,Dizel,7 İleri DSG Otomatik,193142,6749900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.409342+03:00,Skoda,Kodiaq,Prestige,MHEV,7 İleri DSG Otomatik,150110,4749900,3998100,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.409227+03:00,Skoda,Kodiaq,RS,Benzin,7 İleri DSG Otomatik,265195,7399900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.409111+03:00,Skoda,Kodiaq,Sportline,MHEV,7 İleri DSG Otomatik,150110,4899900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.409418+03:00,Skoda,Kodiaq,Sportline,Dizel,7 İleri DSG Otomatik,193142,6999900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.409576+03:00,Skoda,Octavia,Elite,MHEV,7 İleri DSG Otomatik,150110,2734900,2346900,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.409614+03:00,Skoda,Octavia,Premium,MHEV,7 İleri DSG Otomatik,150110,3159900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.409495+03:00,Skoda,Octavia,Prestige,MHEV,7 İleri DSG Otomatik,150110,3459900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.409456+03:00,Skoda,Octavia,RS,Benzin,7 İleri DSG Otomatik,265195,5669900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.409535+03:00,Skoda,Octavia,Sportline,MHEV,7 İleri DSG Otomatik,150110,3459900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.409706+03:00,Skoda,Octavia Combi,RS,Benzin,7 İleri DSG Otomatik,265195,5769900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.409668+03:00,Skoda,Octavia Combi,Sportline,MHEV,7 İleri DSG Otomatik,150110,3559900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.409745+03:00,Skoda,Scala,Elite,Benzin,7 İleri DSG Otomatik,11585,2014900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.409783+03:00,Skoda,Scala,Monte Carlo,Benzin,7 İleri DSG Otomatik,150110,2709900,2316500,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.409821+03:00,Skoda,Scala,Premium,Benzin,7 İleri DSG Otomatik,150110,2389900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.409934+03:00,Skoda,Scala,Premium,Benzin,7 İleri DSG Otomatik,11585,2264900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.409975+03:00,Skoda,Superb,L&K Crystal,Dizel,7 İleri DSG Otomatik,193142,7099900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.410130+03:00,Skoda,Superb,L&K Crystal,MHEV,7 İleri DSG Otomatik,150110,5099900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.410207+03:00,Skoda,Superb,L&K Crystal,Benzin,7 İleri DSG Otomatik,265195,7199900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.410247+03:00,Skoda,Superb,Premium,MHEV,7 İleri DSG Otomatik,150110,3774900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.410092+03:00,Skoda,Superb,Prestige,MHEV,7 İleri DSG Otomatik,150110,4649900,3998500,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.410169+03:00,Skoda,Superb,Sportline,MHEV,7 İleri DSG Otomatik,150110,4649900,3765600,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.410286+03:00,Skoda,Superb Combi,L&K Crystal,MHEV,7 İleri DSG Otomatik,150110,5219900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.410440+03:00,Skoda,Superb Combi,L&K Crystal,Dizel,7 İleri DSG Otomatik,193142,7219900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.410478+03:00,Skoda,Superb Combi,L&K Crystal,Benzin,7 İleri DSG Otomatik,265195,7319900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.410324+03:00,Skoda,Superb Combi,Prestige,MHEV,7 İleri DSG Otomatik,150110,4769900,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.410950+03:00,Tesla,Model Y,Arkadan Çekiş,Elektrik,Otomatik,,2474985,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.411039+03:00,Tesla,Model Y,Long Range AWD,Elektrik,Otomatik,,4410000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.410995+03:00,Tesla,Model Y,Long Range Arkadan Çekiş,Elektrik,Otomatik,,3682800,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.411083+03:00,Tesla,Model Y,Performance,Elektrik,Otomatik,,4756500,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.411290+03:00,Togg,T10F,V1 RWD Standart Menzil,Elektrik,Otomatik,218,1884980,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.411165+03:00,Togg,T10F,V1 RWD Uzun Menzil,Elektrik,Otomatik,218,2195600,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.411246+03:00,Togg,T10F,V2 4More,Elektrik,Otomatik,435,3217937,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.411206+03:00,Togg,T10F,V2 RWD Uzun Menzil,Elektrik,Otomatik,218,2370930,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.411406+03:00,Togg,T10X,V1 RWD Standart Menzil,Elektrik,Otomatik,218,1909048,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.411531+03:00,Togg,T10X,V1 RWD Uzun Menzil,Elektrik,Otomatik,218,2219668,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.411332+03:00,Togg,T10X,V2 4More Obsidiyen,Elektrik,Otomatik,435,3218137,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.411471+03:00,Togg,T10X,V2 RWD Uzun Menzil,Elektrik,Otomatik,218,2411000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.411803+03:00,Toyota,C-HR,Flame,HEV,e-CVT Otomatik,140,2566000,2250000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.411742+03:00,Toyota,C-HR,GR Sport,HEV,e-CVT Otomatik,140,3399000,3085000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.411595+03:00,Toyota,C-HR,Passion,HEV,e-CVT Otomatik,140,2959000,2745000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.411678+03:00,Toyota,C-HR,Passion X-Sport,HEV,e-CVT Otomatik,140,3249000,2980000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.412028+03:00,Toyota,Corolla,Dream,Benzin,Multidrive S Otomatik,125,2609000,2040000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.412105+03:00,Toyota,Corolla,Dream,HEV,e-CVT Otomatik,140,2906000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.411989+03:00,Toyota,Corolla,Dream X-Pack,Benzin,Multidrive S Otomatik,125,2753000,1950000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.412143+03:00,Toyota,Corolla,Dream X-Pack,HEV,e-CVT Otomatik,140,2989000,2530000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.411866+03:00,Toyota,Corolla,Flame X-Pack,Benzin,Multidrive S Otomatik,125,2963000,1999000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.411932+03:00,Toyota,Corolla,Flame X-Pack,HEV,e-CVT Otomatik,140,3228000,2500000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.412186+03:00,Toyota,Corolla,Passion X-Pack,Benzin,Multidrive S Otomatik,125,3126000,2525000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.412067+03:00,Toyota,Corolla,Vision Plus,Benzin,Multidrive S Otomatik,125,2284000,1850000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.412346+03:00,Toyota,Corolla Cross,Flame,HEV,e-CVT Otomatik,140,3320000,2820000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.412263+03:00,Toyota,Corolla Cross,Passion,HEV,e-CVT Otomatik,140,3556000,3024000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.412302+03:00,Toyota,Corolla Cross,Passion X-Pack,HEV,e-CVT Otomatik,140,4120500,3504000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.412463+03:00,Toyota,Corolla Hatchback,Flame,HEV,e-CVT Otomatik,140,2781000,2180000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.412424+03:00,Toyota,Corolla Hatchback,GR Sport,HEV,e-CVT Otomatik,140,2924000,2550000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.412385+03:00,Toyota,Corolla Hatchback,Passion X-Pack,HEV,e-CVT Otomatik,140,2924000,2550000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.412502+03:00,Toyota,Hilux,Adventure,Dizel,6 İleri Otomatik,150,4300000,4182000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.412619+03:00,Toyota,Hilux,GR Sport,Dizel,6 İleri Otomatik,204,5787500,5409500,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.412541+03:00,Toyota,Hilux,Hi-Cruiser,Dizel,6 İleri Otomatik,150,3100000,2678000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.412579+03:00,Toyota,Hilux,Invincible,Dizel,6 İleri Otomatik,150,5003000,4490000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.412682+03:00,Toyota,Land Cruiser Prado,Mild Hybrid Power,MHEV,8 İleri Otomatik,205,19620000,14700000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.412764+03:00,Toyota,Yaris,Flame,HEV,e-CVT Otomatik,116,2245000,1995000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.412722+03:00,Toyota,Yaris,Passion X-Pack,HEV,e-CVT Otomatik,130,2640000,2365000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.412841+03:00,Toyota,Yaris Cross,Dream,HEV,e-CVT Otomatik,130,2704000,2317000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.412802+03:00,Toyota,Yaris Cross,Flame X-Pack,HEV,e-CVT Otomatik,130,3208000,2740000,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413041+03:00,Volkswagen,Golf,Impression,Benzin,6 İleri Manuel,11685,2326000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413001+03:00,Volkswagen,Golf,Life,MHEV,7 İleri DSG Otomatik,11685,2914000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.412960+03:00,Volkswagen,Golf,R-Line,MHEV,7 İleri DSG Otomatik,150110,3727000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.412880+03:00,Volkswagen,Golf,Style,MHEV,7 İleri DSG Otomatik,11685,3287000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.412922+03:00,Volkswagen,Golf,Style,MHEV,7 İleri DSG Otomatik,150110,3495000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413080+03:00,Volkswagen,Golf GTI,GTI,Benzin,7 İleri DSG Otomatik,265195,5777000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413119+03:00,Volkswagen,Golf R,R,Benzin,7 İleri DSG Otomatik,333245,7262000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413160+03:00,Volkswagen,ID.4,Pure,Elektrik,Tek Hız Otomatik,170125,3126150,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413198+03:00,Volkswagen,ID.7,ProS,Elektrik,Tek Hız Otomatik,286210,4415150,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413459+03:00,Volkswagen,Passat,Business,MHEV,7 İleri DSG Otomatik,150110,4431000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413420+03:00,Volkswagen,Passat,Elegance,PHEV,6 İleri DSG Otomatik,204150,4514150,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413581+03:00,Volkswagen,Passat,Elegance,MHEV,7 İleri DSG Otomatik,150110,4918000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413620+03:00,Volkswagen,Passat,Elegance,Dizel,7 İleri DSG Otomatik,193142,7419000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413237+03:00,Volkswagen,Passat,Impression,PHEV,6 İleri DSG Otomatik,204150,3658150,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413357+03:00,Volkswagen,Passat,Impression,MHEV,7 İleri DSG Otomatik,150110,3708000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413278+03:00,Volkswagen,Passat,R-Line,Benzin,7 İleri DSG Otomatik,265195,7461000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413316+03:00,Volkswagen,Passat,R-Line,MHEV,7 İleri DSG Otomatik,150110,5054000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413498+03:00,Volkswagen,Passat,R-Line,PHEV,6 İleri DSG Otomatik,204150,4664150,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413540+03:00,Volkswagen,Passat,R-Line,PHEV,6 İleri DSG Otomatik,272200,4913150,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413669+03:00,Volkswagen,Passat,R-Line,Dizel,7 İleri DSG Otomatik,193142,7596000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413749+03:00,Volkswagen,T-Cross,Life,Benzin,6 İleri Manuel,11685,2343000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413826+03:00,Volkswagen,T-Cross,Life,Benzin,7 İleri DSG Otomatik,11685,2764000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413787+03:00,Volkswagen,T-Cross,R-Line,Benzin,7 İleri DSG Otomatik,11685,3039000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413710+03:00,Volkswagen,T-Cross,Style,Benzin,7 İleri DSG Otomatik,11685,2927000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413941+03:00,Volkswagen,T-Roc,Life,MHEV,7 İleri DSG Otomatik,150110,2838000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413864+03:00,Volkswagen,T-Roc,R-Line,MHEV,7 İleri DSG Otomatik,150110,3523000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413903+03:00,Volkswagen,T-Roc,Style,MHEV,7 İleri DSG Otomatik,150110,3411000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414062+03:00,Volkswagen,Taigo,Life,Benzin,5 İleri Manuel,9570,2230000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414105+03:00,Volkswagen,Taigo,Life,Benzin,7 İleri DSG Otomatik,11685,2674000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.413985+03:00,Volkswagen,Taigo,R-Line,Benzin,7 İleri DSG Otomatik,11685,3144000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414182+03:00,Volkswagen,Taigo,R-Line,Benzin,7 İleri DSG Otomatik,150110,3431000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414024+03:00,Volkswagen,Taigo,Style,Benzin,7 İleri DSG Otomatik,11685,3015000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414144+03:00,Volkswagen,Taigo,Style,Benzin,7 İleri DSG Otomatik,150110,3207000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414333+03:00,Volkswagen,Tayron,Elegance,MHEV,7 İleri DSG Otomatik,150110,4938000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414375+03:00,Volkswagen,Tayron,Elegance,MHEV,7 İleri DSG Otomatik,150110,4829000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414220+03:00,Volkswagen,Tayron,Life,MHEV,7 İleri DSG Otomatik,150110,4082000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414295+03:00,Volkswagen,Tayron,Life,MHEV,7 İleri DSG Otomatik,150110,3776000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414257+03:00,Volkswagen,Tayron,R-Line,MHEV,7 İleri DSG Otomatik,150110,5257000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414414+03:00,Volkswagen,Tayron,R-Line,MHEV,7 İleri DSG Otomatik,150110,5153000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414571+03:00,Volkswagen,Tiguan,Elegance,Dizel,7 İleri DSG Otomatik,193142,6441000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414612+03:00,Volkswagen,Tiguan,Elegance,MHEV,7 İleri DSG Otomatik,150110,4505000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414452+03:00,Volkswagen,Tiguan,Life,MHEV,7 İleri DSG Otomatik,150110,3504000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414494+03:00,Volkswagen,Tiguan,R-Line,Dizel,7 İleri DSG Otomatik,193142,6815000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414532+03:00,Volkswagen,Tiguan,R-Line,MHEV,7 İleri DSG Otomatik,150110,4806000,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414705+03:00,Volkswagen,Touareg,Elegance,Dizel,8 İleri Tiptronic Otomatik,286210,10717150,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414663+03:00,Volkswagen,Touareg,R-Line,Dizel,8 İleri Tiptronic Otomatik,286210,11263150,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414787+03:00,Volvo,EC40 Crossover,Black Edition Single Motor Extended Range,Elektrik,Tek İleri Otomatik,204150,4568028,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414827+03:00,Volvo,EC40 Crossover,Ultra Single Motor Extended Range,Elektrik,Tek İleri Otomatik,204150,4428528,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414745+03:00,Volvo,EC40 Crossover,Ultra Twin Motor,Elektrik,Tek İleri Otomatik,408300,5349420,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414867+03:00,Volvo,EX30,Ultra Single Motor Extended Range,Elektrik,Tek İleri Otomatik,204150,2485390,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414906+03:00,Volvo,EX30,Ultra Twin Motor Performance,Elektrik,Tek İleri Otomatik,428315,3825072,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.414984+03:00,Volvo,EX30 Cross Country,Ultra Twin Motor Performance,Elektrik,Tek İleri Otomatik,428315,3986016,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.415023+03:00,Volvo,EX40,Black Edition Single Motor Extended Range,Elektrik,Tek İleri Otomatik,204150,4476144,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.415103+03:00,Volvo,EX40,Ultra Single Motor Extended Range,Elektrik,Tek İleri Otomatik,204150,4336644,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.415062+03:00,Volvo,EX40,Ultra Twin Motor,Elektrik,Tek İleri Otomatik,408300,5262560,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.415258+03:00,Volvo,V60,Plus,MHEV,7 İleri Çift Debriyajlı Otomatik,197145,5958559,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.415374+03:00,Volvo,XC60 Mild Hybrid,Black Edition Plus,MHEV,8 İleri Geartronic Otomatik,250184,7700254,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.415336+03:00,Volvo,XC60 Mild Hybrid,Black Edition Ultra,MHEV,8 İleri Geartronic Otomatik,250184,8025874,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.415412+03:00,Volvo,XC60 Mild Hybrid,Plus,MHEV,8 İleri Geartronic Otomatik,250184,7292014,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.415297+03:00,Volvo,XC60 Mild Hybrid,Ultra,MHEV,8 İleri Geartronic Otomatik,250184,7594954,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.415492+03:00,Volvo,XC60 Plug-in Hybrid,Black Edition Plus,PHEV,8 İleri Geartronic Otomatik,455335,8374174,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.415573+03:00,Volvo,XC60 Plug-in Hybrid,Black Edition Ultra,PHEV,8 İleri Geartronic Otomatik,455335,8699794,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.415451+03:00,Volvo,XC60 Plug-in Hybrid,Plus,PHEV,8 İleri Geartronic Otomatik,455335,7965934,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.415615+03:00,Volvo,XC60 Plug-in Hybrid,Polestar Engineered,PHEV,8 İleri Geartronic Otomatik,455335,9189034,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.415532+03:00,Volvo,XC60 Plug-in Hybrid,Ultra,PHEV,8 İleri Geartronic Otomatik,455335,8268874,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.415742+03:00,Volvo,XC90 Mild Hybrid,Black Edition Plus,MHEV,8 İleri Geartronic Otomatik,250184,11464777,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.415665+03:00,Volvo,XC90 Mild Hybrid,Black Edition Ultra,MHEV,8 İleri Geartronic Otomatik,250184,11873017,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.415703+03:00,Volvo,XC90 Mild Hybrid,Plus,MHEV,8 İleri Geartronic Otomatik,250184,11234089,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.415780+03:00,Volvo,XC90 Mild Hybrid,Ultra,MHEV,8 İleri Geartronic Otomatik,250184,11642329,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.415896+03:00,Volvo,XC90 Plug-in Hybrid,Black Edition Plus,PHEV,8 İleri Geartronic Otomatik,455335,12145436,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.415819+03:00,Volvo,XC90 Plug-in Hybrid,Black Edition Ultra,PHEV,8 İleri Geartronic Otomatik,455335,12553676,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.415939+03:00,Volvo,XC90 Plug-in Hybrid,Plus,PHEV,8 İleri Geartronic Otomatik,455335,11914748,,https://www.otobul.tr/araclar
+2026-08-16T21:33:03.415857+03:00,Volvo,XC90 Plug-in Hybrid,Ultra,PHEV,8 İleri Geartronic Otomatik,455335,12322988,,https://www.otobul.tr/araclar

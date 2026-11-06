@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+node_modules/
+.tools/
+outputs/
+data/reports/
+
+# Yerel kaynak keşfi ve tarayıcı debug çıktıları
+data/official/
+data/job*.log
+data/job*_logs.zip
+local_run_backup_*/
+v2_output/
+v2_verified_*/
+v2_verified_*.zip
+
+# Tek seferlik kaynak/TSB teşhis betikleri (yerelde korunur, production değildir)
+inspect_*.py
+probe_*.py
+summarize_*.py
+run_direct_brand.py
+audit_and_extend_tsb_mappings.py
+collect_missing_years.py
+promote_exact_tsb_candidates.py
+rank_tsb_candidates.py
