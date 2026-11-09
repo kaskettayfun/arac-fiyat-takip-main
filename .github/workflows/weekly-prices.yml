@@ -27,7 +27,7 @@ concurrency:
 
 jobs:
   calendar-gate:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       run_collect: ${{ steps.gate.outputs.run_collect }}
     steps:
@@ -60,10 +60,21 @@ jobs:
           cache: pip
 
       - name: Bagimliliklari kur
-        timeout-minutes: 8
+        # Ubuntu paket aynalari zaman zaman yavaslar; tek yavas indirme tum
+        # haftalik raporu dusurmesin diye sure uzun tutulur ve 3 kez denenir.
+        timeout-minutes: 25
         run: |
           pip install -r requirements.txt
-          playwright install --with-deps chromium
+          success=0
+          for attempt in 1 2 3; do
+            echo "Playwright Chromium kurulum denemesi: ${attempt}/3"
+            if timeout 600 playwright install --with-deps chromium; then
+              success=1
+              break
+            fi
+            sleep 20
+          done
+          test "$success" -eq 1
 
       - name: Testleri calistir
         id: tests
