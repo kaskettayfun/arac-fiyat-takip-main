@@ -30,7 +30,14 @@ HEADERS = [
 
 def catalog_brand(value: object) -> str:
     name = normalize(value)
-    return {"renault oyak": "renault", "kgmobility": "kgm", "mercedes": "mercedes benz"}.get(name, name)
+    return {
+        "renault oyak": "renault",
+        "kgmobility": "kgm",
+        "mercedes": "mercedes benz",
+        "tofas fiat": "fiat",
+        "otoyol iveco fiat": "fiat",
+        "volvo tr": "volvo",
+    }.get(name, name)
 
 
 def price_key_from_record(row) -> tuple:

@@ -27,9 +27,13 @@ def canonical_identity(record) -> tuple[str, int | None]:
     year = record.Model_Yili
     if record.Marka in {"Nissan", "BYD"} and year is None:
         year = datetime.now().year
-    if record.Marka == "Nissan" and (
-        re.search(r"\bL[12]\b", record.Versiyon_Paket, re.I)
-        or re.match(r"^EV\s+(?:Designpack|Platinum)", record.Versiyon_Paket, re.I)
+    if (
+        record.Marka == "Nissan"
+        and "primastar" not in normalize(record.Model)
+        and (
+            re.search(r"\bL[12]\b", record.Versiyon_Paket, re.I)
+            or re.match(r"^EV\s+(?:Designpack|Platinum)", record.Versiyon_Paket, re.I)
+        )
     ):
         model = "Townstar"
     return model, year
@@ -44,11 +48,23 @@ def canonical_version(model: str, version: str) -> str:
     return version_key
 
 
+def relaxed_version(model: str, version: str) -> str:
+    """Donanım/motor kimliğini değiştirmeyen parantez içi pazarlama eklerini sadeleştirir."""
+    base = canonical_version(model, version)
+    cleaned = re.sub(
+        r"\b(?:bluelink|onden ceker|cift teker|500ed cift teker|s4)\b",
+        " ",
+        base,
+    )
+    return " ".join(cleaned.split())
+
+
 class TSBOnlyMatcher:
     def __init__(self, mapping_path: Path = DEFAULT_MAPPINGS):
         payload = json.loads(mapping_path.read_text(encoding="utf-8"))
         self.by_key = {}
         self.by_identity = {}
+        self.by_relaxed_identity: dict[tuple, int | None] = {}
         for row in payload.get("records", []):
             if row.get("Karar") != "KESİN":
                 continue
@@ -58,15 +74,30 @@ class TSBOnlyMatcher:
             )
             if key in self.by_key:
                 raise RuntimeError(f"Mükerrer TSB eşleşme anahtarı: {key}")
-            self.by_key[key] = int(row["TSB_Kodu"])
+            tsb_code = int(row["TSB_Kodu"])
+            self.by_key[key] = tsb_code
             identity = key[:4]
             previous = self.by_identity.get(identity)
-            if previous is not None and previous != int(row["TSB_Kodu"]):
+            if previous is not None and previous != tsb_code:
                 raise RuntimeError(f"Çelişkili TSB eşleşme kimliği: {identity}")
-            self.by_identity[identity] = int(row["TSB_Kodu"])
+            self.by_identity[identity] = tsb_code
+
+            relaxed_id = (
+                normalize(row["Marka"]),
+                normalize(row["Model"]),
+                relaxed_version(row["Model"], row["Versiyon"]),
+                row["Model_Yili"],
+            )
+            if relaxed_id in self.by_relaxed_identity and self.by_relaxed_identity[relaxed_id] != tsb_code:
+                self.by_relaxed_identity[relaxed_id] = None
+            else:
+                self.by_relaxed_identity[relaxed_id] = tsb_code
 
     def match(self, record) -> TSBMatch:
         model, year = canonical_identity(record)
         key = (normalize(record.Marka), normalize(model), canonical_version(model, record.Versiyon_Paket), year, record.Kaynak_URL)
         tsb = self.by_key.get(key) or self.by_identity.get(key[:4])
+        if tsb is None:
+            relaxed_id = (normalize(record.Marka), normalize(model), relaxed_version(model, record.Versiyon_Paket), year)
+            tsb = self.by_relaxed_identity.get(relaxed_id)
         return TSBMatch(tsb, "KESİN" if tsb else NO_TSB_STATUS, model, year)

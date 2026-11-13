@@ -416,6 +416,18 @@
     {
       "Marka": "Audi",
       "Model": "Audi Q7",
+      "Versiyon": "Audi Q7 - Q7 SUV TDI quattro 220 kW tiptronic",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.audi.com.tr/tr/fiyat-listesi/",
+      "TSB_Kodu": 91681,
+      "Katalog_Marka": "AUDI",
+      "Katalog_Model": "Q7 3.0 TDI QUATTRO 220KW TIPTRONIC",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Audi",
+      "Model": "Audi Q7",
       "Versiyon": "Audi Q7 SUV 45 TFSI quattro 265 hp S line Tiptronic PI",
       "Model_Yili": 2026,
       "Kaynak_URL": "",
@@ -536,12 +548,36 @@
     {
       "Marka": "Audi",
       "Model": "Q3",
+      "Versiyon": "Q3 SUV TFSI 110 kW",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.audi.com.tr/tr/fiyat-listesi/",
+      "TSB_Kodu": 91662,
+      "Katalog_Marka": "AUDI",
+      "Katalog_Model": "Q3 TFSI 1.5 150 S TRONIC",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Audi",
+      "Model": "Q3",
       "Versiyon": "Q3 SUV TFSI 110 kW S tronic",
       "Model_Yili": 2026,
       "Kaynak_URL": "",
       "TSB_Kodu": 91662,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Audi",
+      "Model": "Q3 Sportback",
+      "Versiyon": "Q3 Sportback TFSI 110 kW",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.audi.com.tr/tr/fiyat-listesi/",
+      "TSB_Kodu": 91663,
+      "Katalog_Marka": "AUDI",
+      "Katalog_Model": "Q3 SPORTBACK TFSI 1.5 150 S TRONIC",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Audi",
@@ -1335,6 +1371,30 @@
     },
     {
       "Marka": "BMW",
+      "Model": "BMW iX xDrive60",
+      "Versiyon": "BMW iX xDrive60 - M Sport",
+      "Model_Yili": 2025,
+      "Kaynak_URL": "https://www.bmw.com.tr/tr/fastlane/fiyat-listesi.html",
+      "TSB_Kodu": 212036,
+      "Katalog_Marka": "BMW",
+      "Katalog_Model": "iX XDRIVE60 M SPORT",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "BMW",
+      "Model": "BMW iX xDrive60",
+      "Versiyon": "BMW iX xDrive60 - M Sport",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.bmw.com.tr/tr/fastlane/fiyat-listesi.html",
+      "TSB_Kodu": 212036,
+      "Katalog_Marka": "BMW",
+      "Katalog_Model": "iX XDRIVE60 M SPORT",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "BMW",
       "Model": "BMW iX1 Drive20",
       "Versiyon": "M Sport",
       "Model_Yili": 2025,
@@ -1442,6 +1502,18 @@
       "TSB_Kodu": 212030,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "BMW",
+      "Model": "BMW M3 Touring M Competition xDrive",
+      "Versiyon": "BMW M3 Touring M Competition xDrive - M",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.bmw.com.tr/tr/fastlane/fiyat-listesi.html",
+      "TSB_Kodu": 212031,
+      "Katalog_Marka": "BMW",
+      "Katalog_Model": "M3 TOURING M XDRIVE 3.0 (530)",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "BMW",
@@ -2016,12 +2088,48 @@
     {
       "Marka": "Citroen",
       "Model": "Jumper",
+      "Versiyon": "Jumper - 2.2 BlueHDi 140 HP - 6 İleri Manuel 15m3 4.2T",
+      "Model_Yili": 2025,
+      "Kaynak_URL": "https://talep.citroen.com.tr/fiyat-listesi",
+      "TSB_Kodu": 341344,
+      "Katalog_Marka": "CITROEN",
+      "Katalog_Model": "JUMPER VAN 15M3 4.2T 2.2 BLUEHDI 140 FL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Citroen",
+      "Model": "Jumper",
+      "Versiyon": "Jumper - 2.2 BlueHDi 140 HP - 6 İleri Manuel 15m3 4.2T",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://talep.citroen.com.tr/fiyat-listesi",
+      "TSB_Kodu": 341344,
+      "Katalog_Marka": "CITROEN",
+      "Katalog_Model": "JUMPER VAN 15M3 4.2T 2.2 BLUEHDI 140 FL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Citroen",
+      "Model": "Jumper",
       "Versiyon": "2.2 BlueHDi 140 HP - 6 İleri Manuel 15m3 4.2T Okul",
       "Model_Yili": 2025,
       "Kaynak_URL": "",
       "TSB_Kodu": 341195,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_Arac_TSB_Son_Kontrol.xlsx"
+    },
+    {
+      "Marka": "Citroen",
+      "Model": "Jumper",
+      "Versiyon": "Jumper - 2.2 BlueHDi 140 HP - 6 İleri Manuel 15m3 4.2T Okul",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://talep.citroen.com.tr/fiyat-listesi",
+      "TSB_Kodu": 341195,
+      "Katalog_Marka": "CITROEN",
+      "Katalog_Model": "JUMPER MINIBUS OKUL 16+1 L4H2 2.2 BLUEHDI 140",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Citroen",
@@ -2036,6 +2144,18 @@
     {
       "Marka": "Citroen",
       "Model": "Jumper",
+      "Versiyon": "Jumper - 2.2 BlueHDi 140 HP - 6 İleri Manuel 15m3 4.2T Personel",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://talep.citroen.com.tr/fiyat-listesi",
+      "TSB_Kodu": 341309,
+      "Katalog_Marka": "CITROEN",
+      "Katalog_Model": "JUMPER MINIBUS PERSONEL 16+1 2.2 140",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Citroen",
+      "Model": "Jumper",
       "Versiyon": "Jumper - 2.2 BlueHDi 140 HP - 6 İleri Manuel 4.2T (15M³)",
       "Model_Yili": 2025,
       "Kaynak_URL": "",
@@ -2092,6 +2212,18 @@
       "TSB_Kodu": 341309,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Citroen",
+      "Model": "Jumper",
+      "Versiyon": "Jumper - 2.2 BlueHDi 180 HP - 6 İleri Manuel 15m3 3.5T",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://talep.citroen.com.tr/fiyat-listesi",
+      "TSB_Kodu": 341342,
+      "Katalog_Marka": "CITROEN",
+      "Katalog_Model": "JUMPER VAN 15M3 3.5T 2.2 BLUEHDI 180 FL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Citroen",
@@ -2112,6 +2244,18 @@
       "TSB_Kodu": 341342,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Citroen",
+      "Model": "Jumper",
+      "Versiyon": "Jumper - 2.2 BlueHDi 180 HP - EAT8 15m3 3.5T",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://talep.citroen.com.tr/fiyat-listesi",
+      "TSB_Kodu": 341343,
+      "Katalog_Marka": "CITROEN",
+      "Katalog_Model": "JUMPER VAN 15M3 3.5T 2.2 BLUEHDI 180 EAT8 FL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Citroen",
@@ -2262,6 +2406,18 @@
       "TSB_Kodu": 341377,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Citroen",
+      "Model": "Spacetourer",
+      "Versiyon": "Spacetourer - 2.2 BlueHDi 180 HP - EAT8 8+1",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://talep.citroen.com.tr/fiyat-listesi",
+      "TSB_Kodu": 341383,
+      "Katalog_Marka": "CITROEN",
+      "Katalog_Model": "SPACETOURER 2.2 BLUEHDI 180 EAT8 FL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Citroen",
@@ -2476,6 +2632,30 @@
     {
       "Marka": "Dacia",
       "Model": "Yeni Jogger",
+      "Versiyon": "Yeni Jogger - expression Eco-G 120 - 5 koltuklu",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.dacia.com.tr/fiyat-listesi.html",
+      "TSB_Kodu": 4451206,
+      "Katalog_Marka": "DACIA",
+      "Katalog_Model": "JOGGER EXPRESSION 1.2 ECO-G 120 5 KOLTUKLU",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Dacia",
+      "Model": "Yeni Jogger",
+      "Versiyon": "Yeni Jogger - expression Eco-G 120 - 7 koltuklu",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.dacia.com.tr/fiyat-listesi.html",
+      "TSB_Kodu": 4451207,
+      "Katalog_Marka": "DACIA",
+      "Katalog_Model": "JOGGER EXPRESSION 1.2 ECO-G 120 7 KOLTUKLU",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Dacia",
+      "Model": "Yeni Jogger",
       "Versiyon": "Yeni Jogger - extreme Eco-G 120 - 5 koltuklu",
       "Model_Yili": 2026,
       "Kaynak_URL": "",
@@ -2602,6 +2782,18 @@
       "TSB_Kodu": 7481056,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "DS",
+      "Model": "N°7",
+      "Versiyon": "N°7 Pallas Hybrid 145 Otomatik",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://talep.dsautomobiles.com.tr/fiyat-listesi",
+      "TSB_Kodu": 7481057,
+      "Katalog_Marka": "DS",
+      "Katalog_Model": "No7 PALLAS 1.2 145 HYBRID AT",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "DS",
@@ -2966,6 +3158,90 @@
     {
       "Marka": "Fiat",
       "Model": "Ducato Van",
+      "Versiyon": "Ducato Van - 11.5m³ Manuel 2.2 140HP",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521740,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "DUCATO VAN MAXI 11.5M3 2.2 140 S2",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Ducato Van",
+      "Versiyon": "Ducato Van - 13m³ Manuel 2.2 140HP",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521741,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "DUCATO VAN MAXI 13M3 2.2 140 S2",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Ducato Van",
+      "Versiyon": "Ducato Van - 13m³ Otomatik 2.2 180HP",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521812,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "DUCATO VAN MAXI 13M3 2.2 180 S2",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Ducato Van",
+      "Versiyon": "Ducato Van - 15m³ Karavan Otomatik 2.2 180HP",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521745,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "DUCATO VAN MAXI 15M3 2.2 180 AT KARAVAN S2",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Ducato Van",
+      "Versiyon": "Ducato Van - 15m³ Manuel 2.2 140HP",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521742,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "DUCATO VAN MAXI 15M3 2.2 140 S2",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Ducato Van",
+      "Versiyon": "Ducato Van - 15m³ Otomatik 2.2 180HP",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521744,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "DUCATO VAN MAXI 15M3 2.2 180 AT S2",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Ducato Van",
+      "Versiyon": "Ducato Van - 17m³ Manuel 2.2 140HP",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521743,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "DUCATO VAN MAXI 17M3 2.2 140 S2",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Ducato Van",
       "Versiyon": "Ducato Van - Maxi 11.5m³ Manuel 2.2 140HP",
       "Model_Yili": 2025,
       "Kaynak_URL": "",
@@ -3002,6 +3278,18 @@
       "TSB_Kodu": 521741,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Ducato Van",
+      "Versiyon": "Ducato Van - Maxi 13m³ Otomatik 2.2 180HP",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521812,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "DUCATO VAN MAXI 13M3 2.2 180 S2",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Fiat",
@@ -3246,6 +3534,18 @@
     {
       "Marka": "Fiat",
       "Model": "Scudo Combi",
+      "Versiyon": "Scudo Combi - Combi Standart Lounge (L2) 1.5 Manuel 1.5 Multijet3 120 HP",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521788,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "SCUDO COMBI STD (L2) LOUNGE 1.5 MJ3 120",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Scudo Combi",
       "Versiyon": "Scudo Combi - Combi Standart Lounge (L2) 1.5 Manuel S4 1.5 Multijet3 120 HP",
       "Model_Yili": 2026,
       "Kaynak_URL": "",
@@ -3262,6 +3562,18 @@
       "TSB_Kodu": 521763,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Scudo Combi",
+      "Versiyon": "Scudo Combi - Combi Standart Lounge (L2) 2.2 Otomatik 2.2 Multijet3 150HP AT",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521776,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "SCUDO COMBI STD (L2) LOUNGE 2.2 MJ 150 AT",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Fiat",
@@ -3296,12 +3608,36 @@
     {
       "Marka": "Fiat",
       "Model": "Scudo Combi",
+      "Versiyon": "Scudo Combi - Combimix Maxi Lounge 2.2 Manuel 2.2 Multijet4 150 HP",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521802,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "SCUDO COMBIMIX MAXI LOUNGE 2.2MJ 150 S4",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Scudo Combi",
       "Versiyon": "Scudo Combi - Combimix Maxi Lounge 2.2 Manuel S4 2.2 Multijet4 150 HP",
       "Model_Yili": 2026,
       "Kaynak_URL": "",
       "TSB_Kodu": 521802,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Scudo Combi",
+      "Versiyon": "Scudo Combi - Combimix Standart Lounge (L2) 1.5 Manuel 1.5 Multijet3 120 HP",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521800,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "SCUDO COMBI STD LOUNGE 1.5MJ 120 S4",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Fiat",
@@ -3326,6 +3662,18 @@
     {
       "Marka": "Fiat",
       "Model": "Scudo Van",
+      "Versiyon": "Scudo Van - Maxi Business (L3) 1.5 Manuel 1.5 Multijet3 120 HP",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521796,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "SCUDO VAN MAXI L3 BUSINESS 1.5 MJET 120 S4",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Scudo Van",
       "Versiyon": "Scudo Van - Maxi Business (L3) 1.5 Manuel Multijet3 120 HP",
       "Model_Yili": 2025,
       "Kaynak_URL": "",
@@ -3346,6 +3694,18 @@
     {
       "Marka": "Fiat",
       "Model": "Scudo Van",
+      "Versiyon": "Scudo Van - Maxi Business (L3) 2.2 Manuel 2.2 Multijet4 150 HP",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521797,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "SCUDO VAN MAXI L3 BUSINESS 2.2 MJET 150 S4",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Scudo Van",
       "Versiyon": "Scudo Van - Maxi Business (L3) 2.2 Manuel S4 2.2 Multijet4 150 HP",
       "Model_Yili": 2026,
       "Kaynak_URL": "",
@@ -3356,12 +3716,36 @@
     {
       "Marka": "Fiat",
       "Model": "Scudo Van",
+      "Versiyon": "Scudo Van - Maxi Business (L3) 2.2 Otomatik 2.2 Multijet4 180 HP AT",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521798,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "SCUDO VAN MAXI L3 BUSINESS 2.2 MJET 180AT S4",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Scudo Van",
       "Versiyon": "Scudo Van - Maxi Business (L3) 2.2 Otomatik S4 2.2 Multijet4 180 HP AT",
       "Model_Yili": 2026,
       "Kaynak_URL": "",
       "TSB_Kodu": 521798,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Scudo Van",
+      "Versiyon": "Scudo Van - Standart Business (L2) 1.5 Manuel 1.5 Multijet3 120 HP",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521794,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "SCUDO VAN STD L2 BUSINESS 1.5 MJET 120 S4",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Fiat",
@@ -3402,6 +3786,18 @@
       "TSB_Kodu": 521766,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Scudo Van",
+      "Versiyon": "Scudo Van - Standart Business (L2) 2.2 Otomatik 2.2 Multijet4 180 HP AT",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521795,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "SCUDO VAN STD L2 BUSINESS 2.2 MJET 180AT S4",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Fiat",
@@ -3486,6 +3882,54 @@
     {
       "Marka": "Fiat",
       "Model": "Ulysse 8+1",
+      "Versiyon": "Ulysse 8+1 - Konfor Maxi 2.2 Otomatik Multijet4 180 HP",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521813,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "ULYSSE S4 KONFOR MAXI 8+1 2.2 MJET 180 AT8",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Ulysse 8+1",
+      "Versiyon": "Ulysse 8+1 - Konfor Maxi 2.2 Otomatik S4 Multijet4 180 HP",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521813,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "ULYSSE S4 KONFOR MAXI 8+1 2.2 MJET 180 AT8",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Ulysse 8+1",
+      "Versiyon": "Ulysse 8+1 - Konfor Standart 2.2 Otomatik Multijet4 180 HP",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521804,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "ULYSSE S4 KONFOR 8+1 2.2 MJET 180 AT8",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Ulysse 8+1",
+      "Versiyon": "Ulysse 8+1 - Konfor Standart 2.2 Otomatik S4 Multijet4 180 HP",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521804,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "ULYSSE S4 KONFOR 8+1 2.2 MJET 180 AT8",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Ulysse 8+1",
       "Versiyon": "Ulysse 8+1 - Lounge 2.2 Otomatik Multijet4 180 HP",
       "Model_Yili": 2025,
       "Kaynak_URL": "",
@@ -3502,6 +3946,54 @@
       "TSB_Kodu": 521803,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Ulysse 8+1",
+      "Versiyon": "Ulysse 8+1 - Lounge Maxi 2.2 Otomatik Multijet4 180 HP",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521814,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "ULYSSE S4 LOUNGE MAXI 8+1 2.2 MJET 180 AT8",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Ulysse 8+1",
+      "Versiyon": "Ulysse 8+1 - Lounge Maxi 2.2 Otomatik S4 Multijet4 180 HP",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521814,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "ULYSSE S4 LOUNGE MAXI 8+1 2.2 MJET 180 AT8",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Ulysse 8+1",
+      "Versiyon": "Ulysse 8+1 - Lounge Standart 2.2 Otomatik Multijet4 180 HP",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521803,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "ULYSSE S4 LOUNGE 8+1 2.2 MJET 180 AT8",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Fiat",
+      "Model": "Ulysse 8+1",
+      "Versiyon": "Ulysse 8+1 - Lounge Standart 2.2 Otomatik S4 Multijet4 180 HP",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.fiatprofessional.com/tr/fiyat-listesi",
+      "TSB_Kodu": 521803,
+      "Katalog_Marka": "FIAT",
+      "Katalog_Model": "ULYSSE S4 LOUNGE 8+1 2.2 MJET 180 AT8",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Ford",
@@ -4666,6 +5158,18 @@
     {
       "Marka": "Ford",
       "Model": "Transit Van",
+      "Versiyon": "Transit Van - Deluxe Çift Kabin Van (Uzun Şasi, Önden Çeker), 350LF, 5+1, 7.6m3, 2.0L EcoBlue Upgrade 165PS, 8 İleri Otomatik, Dizel",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.ford.com.tr/fiyat-listesi",
+      "TSB_Kodu": 532891,
+      "Katalog_Marka": "FORD",
+      "Katalog_Model": "TRAN.ICA3 350LFVANC.K7.6M3 2.0 165U.DELUXEAT",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Ford",
+      "Model": "Transit Van",
       "Versiyon": "Transit Van - Deluxe Van (Jumbo Şasi), 350E, 15.1m3, 2.0L EcoBlue Upgrade 165PS, 6 İleri Manuel, Dizel",
       "Model_Yili": 2026,
       "Kaynak_URL": "",
@@ -4726,6 +5230,18 @@
     {
       "Marka": "Ford",
       "Model": "Transit Van",
+      "Versiyon": "Transit Van - Trend Çift Kabin Van (Uzun Şasi, Önden Çeker), 350LF, 5+1, 7.6m3, 2.0L EcoBlue Upgrade 165PS, 8 İleri Otomatik, Dizel",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.ford.com.tr/fiyat-listesi",
+      "TSB_Kodu": 532952,
+      "Katalog_Marka": "FORD",
+      "Katalog_Model": "TRAN.ICA3 350LF VAN 7.6M3 2.0 165UZUNTRENDAT",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Ford",
+      "Model": "Transit Van",
       "Versiyon": "Transit Van - Trend Van (Ambulans, Jumbo Şasi), 410L AT Arkadan İter, Yüksek Tavan, 2.0L EcoBlue Upgrade 165PS, 8 İleri Otomatik, Dizel",
       "Model_Yili": 2026,
       "Kaynak_URL": "",
@@ -4782,6 +5298,30 @@
       "TSB_Kodu": 532901,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Ford",
+      "Model": "Transit Van",
+      "Versiyon": "Transit Van - Trend Van (Jumbo Şasi, 500ED Çift Teker), 500ED, 15.1m3, 2.0L EcoBlue Upgrade 165PS, 10 İleri Otomatik, Dizel",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.ford.com.tr/fiyat-listesi",
+      "TSB_Kodu": 532901,
+      "Katalog_Marka": "FORD",
+      "Katalog_Model": "TRAN.ICA3 500ED VAN 15.1M3 2.0 165 J.TRENDAT",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Ford",
+      "Model": "Transit Van",
+      "Versiyon": "Transit Van - Trend Van (Jumbo Şasi, Çift Teker), 350ED, 15.1m3, 2.0L EcoBlue Upgrade 165PS, 6 İleri Manuel, Dizel",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.ford.com.tr/fiyat-listesi",
+      "TSB_Kodu": 532871,
+      "Katalog_Marka": "FORD",
+      "Katalog_Model": "TRAN.ICA3 350ED KNET 2.0 165 JUMBO TREND",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Ford",
@@ -4884,6 +5424,66 @@
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
     },
     {
+      "Marka": "Ford",
+      "Model": "Transit Van",
+      "Versiyon": "Transit Van - Trend Van (Uzun Şasi, Önden Çeker), 350LF, 11.5m3, 2.0L EcoBlue Upgrade 165PS, 6 İleri Manuel, Dizel",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.ford.com.tr/fiyat-listesi",
+      "TSB_Kodu": 532889,
+      "Katalog_Marka": "FORD",
+      "Katalog_Model": "TRAN.ICA3 350LF VAN 11.5M3 2.0 165UZUNTREND",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Ford",
+      "Model": "Transit Van",
+      "Versiyon": "Transit Van - Trend Van (Uzun Şasi, Önden Çeker), 350LF, 11.5m3, 2.0L EcoBlue Upgrade 165PS, 8 İleri Otomatik, Dizel",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.ford.com.tr/fiyat-listesi",
+      "TSB_Kodu": 532805,
+      "Katalog_Marka": "FORD",
+      "Katalog_Model": "TRAN.ICA3 350LF VAN 11.5M3 2.0 170UZUNTRENDAT",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Ford",
+      "Model": "Transit Van",
+      "Versiyon": "Transit Van - Trend Van (Uzun Şasi, Önden Çeker), 350LF, Yüksek Tavan, 13m3, 2.0L EcoBlue Upgrade 165PS, 6 İleri Manuel, Dizel",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.ford.com.tr/fiyat-listesi",
+      "TSB_Kodu": 532892,
+      "Katalog_Marka": "FORD",
+      "Katalog_Model": "TRAN.ICA3 350LF VAN Y.T13M3 2.0 165 U.TREND",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Ford",
+      "Model": "Transit Van",
+      "Versiyon": "Transit Van - Trend Van (Uzun Şasi, Önden Çeker), 350LF, Yüksek Tavan, 13m3, 2.0L EcoBlue Upgrade 165PS, 8 İleri Otomatik, Dizel",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.ford.com.tr/fiyat-listesi",
+      "TSB_Kodu": 532959,
+      "Katalog_Marka": "FORD",
+      "Katalog_Model": "TRAN.ICA3 350LF VAN 13M3 2.0 165U.TREND YTAT",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Honda",
+      "Model": "CR-V e:HEV",
+      "Versiyon": "CR-V e:HEV - 2.0L Hibrit Otomatik Advance",
+      "Model_Yili": 2025,
+      "Kaynak_URL": "https://www.honda.com.tr/otomobil/fiyat-listesi",
+      "TSB_Kodu": 611237,
+      "Katalog_Marka": "HONDA",
+      "Katalog_Model": "CR-V 2.0 e:HEV HIBRIT ADVANCE AT",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
       "Marka": "Honda",
       "Model": "CR-V e:HEV",
       "Versiyon": "CR-V e:HEV - 2.0L Hibrit Otomatik Advance",
@@ -4897,11 +5497,35 @@
       "Marka": "Honda",
       "Model": "HR-V e:HEV",
       "Versiyon": "HR-V e:HEV - 1.5L Hibrit Otomatik Advance",
+      "Model_Yili": 2025,
+      "Kaynak_URL": "https://www.honda.com.tr/otomobil/fiyat-listesi",
+      "TSB_Kodu": 611230,
+      "Katalog_Marka": "HONDA",
+      "Katalog_Model": "HR-V 1.5 e:HEV HYBRID ADVANCE AT",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Honda",
+      "Model": "HR-V e:HEV",
+      "Versiyon": "HR-V e:HEV - 1.5L Hibrit Otomatik Advance",
       "Model_Yili": 2026,
       "Kaynak_URL": "",
       "TSB_Kodu": 611230,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Honda",
+      "Model": "HR-V e:HEV",
+      "Versiyon": "HR-V e:HEV - 1.5L Hibrit Otomatik Elegance",
+      "Model_Yili": 2025,
+      "Kaynak_URL": "https://www.honda.com.tr/otomobil/fiyat-listesi",
+      "TSB_Kodu": 611232,
+      "Katalog_Marka": "HONDA",
+      "Katalog_Model": "HR-V 1.5 e:HEV HIBRID ELEGANCE AT",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Honda",
@@ -4962,6 +5586,18 @@
       "TSB_Kodu": 611247,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Honda",
+      "Model": "ZR-V e:HEV",
+      "Versiyon": "ZR-V e:HEV - 2.0L Hibrit Otomatik Advance",
+      "Model_Yili": 2025,
+      "Kaynak_URL": "https://www.honda.com.tr/otomobil/fiyat-listesi",
+      "TSB_Kodu": 611236,
+      "Katalog_Marka": "HONDA",
+      "Katalog_Model": "ZR-V 2.0 HYBRID ADVANCE AT",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Honda",
@@ -5416,6 +6052,18 @@
     {
       "Marka": "Hyundai",
       "Model": "IONIQ 9",
+      "Versiyon": "IONIQ 9 - 160kW Uzun Menzil 4x2 Progressive (Bluelink) Elektrik Otomatik",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.hyundai.com/tr/tr/arac-modelleri/fiyat-listesi",
+      "TSB_Kodu": 1771395,
+      "Katalog_Marka": "HYUNDAI",
+      "Katalog_Model": "IONIQ 9 PROGRESSIVE 160KW 4x2",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Hyundai",
+      "Model": "IONIQ 9",
       "Versiyon": "IONIQ 9 - 160kW Uzun Menzil 4x2 Progressive Elektrik Otomatik",
       "Model_Yili": 2026,
       "Kaynak_URL": "",
@@ -5432,6 +6080,18 @@
       "TSB_Kodu": 1771396,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-09-11_TSB_son.xlsx"
+    },
+    {
+      "Marka": "Hyundai",
+      "Model": "IONIQ 9",
+      "Versiyon": "IONIQ 9 - 226kW Uzun Menzil 4x4 Calligraphy (Bluelink) Elektrik Otomatik",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.hyundai.com/tr/tr/arac-modelleri/fiyat-listesi",
+      "TSB_Kodu": 1771396,
+      "Katalog_Marka": "HYUNDAI",
+      "Katalog_Model": "IONIQ 9 CALLIGRAPHY 226.1KW 4x4",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Hyundai",
@@ -5512,6 +6172,18 @@
       "TSB_Kodu": 1771379,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Hyundai",
+      "Model": "SANTA FE Hibrit",
+      "Versiyon": "SANTA FE Hibrit - 1.6 T-GDI HEV 239PS 4x4 Progressive (Bluelink) Benzin Otomatik",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.hyundai.com/tr/tr/arac-modelleri/fiyat-listesi",
+      "TSB_Kodu": 1771379,
+      "Katalog_Marka": "HYUNDAI",
+      "Katalog_Model": "SANTA FE 1.6 T-GDI HEV 215 PROGRESSIVE 4X4 AT",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Hyundai",
@@ -5952,6 +6624,30 @@
       "TSB_Kodu": 8001296,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Kia",
+      "Model": "Sportage",
+      "Versiyon": "Sportage 1.6L 150 PS DCT (Otomatik) GT-Line",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.kia.com/tr/satis-merkezi/fiyat-listesi.html",
+      "TSB_Kodu": 8001318,
+      "Katalog_Marka": "KIA",
+      "Katalog_Model": "SPORTAGE 1.6 150 DCT GT-LINE AT FL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Kia",
+      "Model": "Sportage",
+      "Versiyon": "Sportage 1.6L 150 PS DCT (Otomatik) GT-Line Design",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.kia.com/tr/satis-merkezi/fiyat-listesi.html",
+      "TSB_Kodu": 8001319,
+      "Katalog_Marka": "KIA",
+      "Katalog_Model": "SPORTAGE 1.6 150 DCT GT-LINE DESIGN AT FL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Kia",
@@ -7244,12 +7940,48 @@
     {
       "Marka": "MG",
       "Model": "MG HS",
+      "Versiyon": "MG HS Hybrid+ Luxury Plus",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.mg-turkey.com/tr/fiyat-listesi.html",
+      "TSB_Kodu": 5881035,
+      "Katalog_Marka": "MG",
+      "Katalog_Model": "HS HYBRID+ LUXURY PLUS",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "MG",
+      "Model": "MG HS",
       "Versiyon": "MG HS Luxury",
       "Model_Yili": 2026,
       "Kaynak_URL": "",
       "TSB_Kodu": 5881023,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "MG",
+      "Model": "MG HS",
+      "Versiyon": "MG HS Luxury Plus",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.mg-turkey.com/tr/fiyat-listesi.html",
+      "TSB_Kodu": 5881034,
+      "Katalog_Marka": "MG",
+      "Katalog_Model": "HS LUXURY PLUS 1.5T (170) AT",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "MG",
+      "Model": "MG HS",
+      "Versiyon": "MG HS Premium",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.mg-turkey.com/tr/fiyat-listesi.html",
+      "TSB_Kodu": 5881033,
+      "Katalog_Marka": "MG",
+      "Katalog_Model": "HS PREMIUM 1.5T (170) AT",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "MG",
@@ -7573,6 +8305,42 @@
     },
     {
       "Marka": "Nissan",
+      "Model": "Primastar",
+      "Versiyon": "Primastar - 5+1 Combi Van 2.0 Blue dCi 150PS 6MT L2 Tekna",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.nissan.com.tr/fiyat-listesi.html",
+      "TSB_Kodu": 1071282,
+      "Katalog_Marka": "NISSAN",
+      "Katalog_Model": "PRIMASTAR 5+1 KOMBI VAN2.0 B.DCI150 6MT TEKNA",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Nissan",
+      "Model": "Primastar",
+      "Versiyon": "Primastar - 8+1 Combi 2.0 Blue dCi 170PS 9AT L2 Tekna",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.nissan.com.tr/fiyat-listesi.html",
+      "TSB_Kodu": 1071283,
+      "Katalog_Marka": "NISSAN",
+      "Katalog_Model": "PRIMASTAR 8+1 KOMBI 2.0 B.DCI 170 9AT TEKNA",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Nissan",
+      "Model": "Primastar",
+      "Versiyon": "Primastar - Panelvan 2.0 Blue dCi 150PS 6MT L2 Acenta",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.nissan.com.tr/fiyat-listesi.html",
+      "TSB_Kodu": 1071281,
+      "Katalog_Marka": "NISSAN",
+      "Katalog_Model": "PRIMASTAR VAN 2.0 B.DCI 150 6MT ACENTA",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Nissan",
       "Model": "Qashqai",
       "Versiyon": "Qashqai - 1.3 DIG-T Mild Hybrid 158PS Auto Designpack",
       "Model_Yili": 2026,
@@ -7744,6 +8512,30 @@
     {
       "Marka": "Nissan",
       "Model": "Townstar",
+      "Versiyon": "Townstar - 5+1 Combi Van 2.0 Blue dCi 150PS 6MT L2 Tekna",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.nissan.com.tr/fiyat-listesi.html",
+      "TSB_Kodu": 1071282,
+      "Katalog_Marka": "NISSAN",
+      "Katalog_Model": "PRIMASTAR 5+1 KOMBI VAN2.0 B.DCI150 6MT TEKNA",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Nissan",
+      "Model": "Townstar",
+      "Versiyon": "Townstar - 8+1 Combi 2.0 Blue dCi 170PS 9AT L2 Tekna",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.nissan.com.tr/fiyat-listesi.html",
+      "TSB_Kodu": 1071283,
+      "Katalog_Marka": "NISSAN",
+      "Katalog_Model": "PRIMASTAR 8+1 KOMBI 2.0 B.DCI 170 9AT TEKNA",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Nissan",
+      "Model": "Townstar",
       "Versiyon": "Townstar - EV Designpack",
       "Model_Yili": 2026,
       "Kaynak_URL": "",
@@ -7783,6 +8575,18 @@
     },
     {
       "Marka": "Nissan",
+      "Model": "Townstar",
+      "Versiyon": "Townstar - Panelvan 2.0 Blue dCi 150PS 6MT L2 Acenta",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.nissan.com.tr/fiyat-listesi.html",
+      "TSB_Kodu": 1071281,
+      "Katalog_Marka": "NISSAN",
+      "Katalog_Model": "PRIMASTAR VAN 2.0 B.DCI 150 6MT ACENTA",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Nissan",
       "Model": "X-Trail",
       "Versiyon": "X-Trail - 1.5 VC-T Mild Hybrid 163PS Auto Platinum",
       "Model_Yili": 2026,
@@ -7800,6 +8604,42 @@
       "TSB_Kodu": 1071252,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Nissan",
+      "Model": "Yeni Primastar",
+      "Versiyon": "Yeni Primastar - 5+1 Combi Van 2.0 Blue dCi 150PS 6MT L2 Tekna",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.nissan.com.tr/fiyat-listesi.html",
+      "TSB_Kodu": 1071282,
+      "Katalog_Marka": "NISSAN",
+      "Katalog_Model": "PRIMASTAR 5+1 KOMBI VAN2.0 B.DCI150 6MT TEKNA",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Nissan",
+      "Model": "Yeni Primastar",
+      "Versiyon": "Yeni Primastar - 8+1 Combi 2.0 Blue dCi 170PS 9AT L2 Tekna",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.nissan.com.tr/fiyat-listesi.html",
+      "TSB_Kodu": 1071283,
+      "Katalog_Marka": "NISSAN",
+      "Katalog_Model": "PRIMASTAR 8+1 KOMBI 2.0 B.DCI 170 9AT TEKNA",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Nissan",
+      "Model": "Yeni Primastar",
+      "Versiyon": "Yeni Primastar - Panelvan 2.0 Blue dCi 150PS 6MT L2 Acenta",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.nissan.com.tr/fiyat-listesi.html",
+      "TSB_Kodu": 1071281,
+      "Katalog_Marka": "NISSAN",
+      "Katalog_Model": "PRIMASTAR VAN 2.0 B.DCI 150 6MT ACENTA",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Opel",
@@ -8123,6 +8963,18 @@
     },
     {
       "Marka": "Opel",
+      "Model": "Movano Minibüs",
+      "Versiyon": "Movano Minibüs - 2.2 140 HP Dizel MT6 L4H2 15m3 4 Ton (Servis 16+1) L4H2 15m3 4 Ton (Okul 16+1)",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://fiyatlisteleri.opel.com.tr/ticari-araclar",
+      "TSB_Kodu": 1111683,
+      "Katalog_Marka": "OPEL",
+      "Katalog_Model": "MOVANO 2.2 140 4T 16+1 PERSONEL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Opel",
       "Model": "Vivaro Cargo",
       "Versiyon": "Vivaro Cargo - 1.5 120 HP Dizel MT6 Ultimate",
       "Model_Yili": 2026,
@@ -8130,6 +8982,18 @@
       "TSB_Kodu": 1111699,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Opel",
+      "Model": "Vivaro Cargo",
+      "Versiyon": "Vivaro Cargo - 1.5 120 HP Dizel MT6 Ultimate XL",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://fiyatlisteleri.opel.com.tr/ticari-araclar",
+      "TSB_Kodu": 1111705,
+      "Katalog_Marka": "OPEL",
+      "Katalog_Model": "VIVARO CARGO 1.5 120 DIZEL MT6 ULTIMATE XL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Opel",
@@ -8150,6 +9014,18 @@
       "TSB_Kodu": 1111717,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Opel",
+      "Model": "Vivaro Cargo",
+      "Versiyon": "Vivaro Cargo - 2.2 180 HP Dizel AT8 Ultimate XL",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://fiyatlisteleri.opel.com.tr/ticari-araclar",
+      "TSB_Kodu": 1111710,
+      "Katalog_Marka": "OPEL",
+      "Katalog_Model": "VIVARO CARGO 2.2 180 DIZEL AT8 ULTIMATE XL FL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Opel",
@@ -8393,6 +9269,18 @@
     },
     {
       "Marka": "Peugeot",
+      "Model": "PEUGEOT EXPERT COMBI VAN",
+      "Versiyon": "PEUGEOT EXPERT COMBI VAN - Expert Combi L3 5+1 2.2 BlueHDi 180hp EAT8",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://kampanya.peugeot.com.tr/fiyat-listesi/",
+      "TSB_Kodu": 1142454,
+      "Katalog_Marka": "PEUGEOT",
+      "Katalog_Model": "EXPERT COMBI VAN L3 5+1 2.2 B.HDI 180 EAT8",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Peugeot",
       "Model": "PEUGEOT EXPERT TRAVELLER",
       "Versiyon": "PEUGEOT EXPERT TRAVELLER - Traveller ALLURE L3 8+1 2.2 BlueHDi 180hp EAT8 €6eBIS",
       "Model_Yili": 2026,
@@ -8623,6 +9511,18 @@
     },
     {
       "Marka": "Renault",
+      "Model": "Boreal",
+      "Versiyon": "Boreal - techno Turbo TCe EDC 145 hp",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.renault.com.tr/binek-araclar.html",
+      "TSB_Kodu": 1221271,
+      "Katalog_Marka": "RENAULT (OYAK)",
+      "Katalog_Model": "BOREAL TECHNO TURBO TCE EDC 145",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Renault",
       "Model": "Captur",
       "Versiyon": "Captur - techno mild hybrid EDC 140 hp",
       "Model_Yili": 2026,
@@ -8670,6 +9570,18 @@
       "TSB_Kodu": 1232315,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Renault",
+      "Model": "Duster",
+      "Versiyon": "Duster - techno hybrid 4x4 150 hp",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.renault.com.tr/binek-araclar.html",
+      "TSB_Kodu": 1232316,
+      "Katalog_Marka": "RENAULT",
+      "Katalog_Model": "DUSTER TECHNO HYBRID 4X4 LPG 150",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Renault",
@@ -8854,6 +9766,18 @@
     {
       "Marka": "Renault",
       "Model": "Trafic Combi",
+      "Versiyon": "Trafic Combi - 5+1 Grand Confort 2.0 Blue dCi 150 bg",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.renault.com.tr/ticari-araclar.html",
+      "TSB_Kodu": 1232251,
+      "Katalog_Marka": "RENAULT",
+      "Katalog_Model": "TRAFIC COMBI 5+1 GRAND CONFORT 6M3 150 D-FULL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Renault",
+      "Model": "Trafic Combi",
       "Versiyon": "Trafic Combi - 5+1 Grand Confort 2.0 Blue dCi EAG9 170 bg",
       "Model_Yili": 2026,
       "Kaynak_URL": "",
@@ -8914,6 +9838,18 @@
     {
       "Marka": "Renault",
       "Model": "Yeni Master Kamyonet",
+      "Versiyon": "Yeni Master Kamyonet - L2 Tek Kabin 170 hp FD",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.renault.com.tr/ticari-araclar.html",
+      "TSB_Kodu": 1232297,
+      "Katalog_Marka": "RENAULT",
+      "Katalog_Model": "MASTER KAMYONET L2 TEK KABIN (170) FD",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Renault",
+      "Model": "Yeni Master Kamyonet",
       "Versiyon": "Yeni Master Kamyonet - L2 Tek Kabin 170 hp FD - Kasalı",
       "Model_Yili": 2026,
       "Kaynak_URL": "",
@@ -8930,6 +9866,30 @@
       "TSB_Kodu": 1232311,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Renault",
+      "Model": "Yeni Master Kamyonet",
+      "Versiyon": "Yeni Master Kamyonet - L3 Tek Kabin 170 hp FD",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.renault.com.tr/ticari-araclar.html",
+      "TSB_Kodu": 1232298,
+      "Katalog_Marka": "RENAULT",
+      "Katalog_Model": "MASTER KAMYONET L3 TEK KABIN (170) FD",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Renault",
+      "Model": "Yeni Master Kamyonet",
+      "Versiyon": "Yeni Master Kamyonet - L3 Tek Kabin 170 hp FD - Kasalı",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.renault.com.tr/ticari-araclar.html",
+      "TSB_Kodu": 1232331,
+      "Katalog_Marka": "RENAULT",
+      "Katalog_Model": "MASTER KAMYONET L3 TEK KABIN FD 170 KASALI",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Renault",
@@ -9130,6 +10090,18 @@
       "TSB_Kodu": 1331292,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Skoda",
+      "Model": "Škoda Karoq",
+      "Versiyon": "Škoda Karoq - Yeni Prestige 1.5 TSI 150 PS DSG",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.skoda.com.tr/fiyat-listesi",
+      "TSB_Kodu": 1331291,
+      "Katalog_Marka": "SKODA",
+      "Katalog_Model": "KAROQ FL 1.5 TSI ACT 150 DSG PRESTIGE",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Skoda",
@@ -9803,6 +10775,30 @@
     },
     {
       "Marka": "Toyota",
+      "Model": "GR Yaris",
+      "Versiyon": "GR Yaris - Aero Performance 4x4 280HP M/T",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.toyota.com.tr/fiyat-listesi",
+      "TSB_Kodu": 1441434,
+      "Katalog_Marka": "TOYOTA",
+      "Katalog_Model": "GR YARIS 1.6 AERO PERFORMANCE 4x4 280 MT",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Toyota",
+      "Model": "GR Yaris",
+      "Versiyon": "GR Yaris - Performance 4x4 280HP M/T",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.toyota.com.tr/fiyat-listesi",
+      "TSB_Kodu": 1441433,
+      "Katalog_Marka": "TOYOTA",
+      "Katalog_Model": "GR YARIS 1.6 PERFORMANCE 4x4 280 MT",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Toyota",
       "Model": "Hilux",
       "Versiyon": "Hilux - 2.8 D-4D Mild Hybrid Power 4X4 Adventure A/T",
       "Model_Yili": 2026,
@@ -10064,12 +11060,36 @@
     {
       "Marka": "Toyota",
       "Model": "Yaris Cross Hybrid",
+      "Versiyon": "Yaris Cross Hybrid - 1.5 Hybrid Flame 130 HP e-CVT",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.toyota.com.tr/fiyat-listesi",
+      "TSB_Kodu": 1441390,
+      "Katalog_Marka": "TOYOTA",
+      "Katalog_Model": "YARIS CROSS 1.5 HYBRID FLAME E-CVT FL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Toyota",
+      "Model": "Yaris Cross Hybrid",
       "Versiyon": "Yaris Cross Hybrid - 1.5 Hybrid Flame X-Pack 130 HP e-CVT",
       "Model_Yili": 2026,
       "Kaynak_URL": "",
       "TSB_Kodu": 1441391,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-09-11_TSB_son.xlsx"
+    },
+    {
+      "Marka": "Toyota",
+      "Model": "Yaris Cross Hybrid",
+      "Versiyon": "Yaris Cross Hybrid - 1.5 Hybrid Passion X-Pack 130 HP e-CVT*",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.toyota.com.tr/fiyat-listesi",
+      "TSB_Kodu": 1441392,
+      "Katalog_Marka": "TOYOTA",
+      "Katalog_Model": "YARIS CROSS 1.5 HYBRID PASSIONX-PACK E-CVTFL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Toyota",
@@ -10593,6 +11613,18 @@
     },
     {
       "Marka": "Volkswagen",
+      "Model": "ID.Buzz Pure",
+      "Versiyon": "ID.Buzz Pure - ID. Buzz Pure (4+1) Standart Şasi 190 PS (61kWh)",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.vw.com.tr/tr/fiyat-listesi.html",
+      "TSB_Kodu": 1531709,
+      "Katalog_Marka": "VOLKSWAGEN",
+      "Katalog_Model": "ID. BUZZ PURE (4+1) STD 190 (61KWH)",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volkswagen",
       "Model": "Multivan",
       "Versiyon": "Multivan",
       "Model_Yili": 2026,
@@ -10994,12 +12026,60 @@
     {
       "Marka": "Volvo",
       "Model": "EC40",
+      "Versiyon": "EC40 - Black Edition Ultra, Single Motor Extended Range",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541342,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "EC40 S.MOTOR EXT.RNG ULT. BLACK E.ULT 150KW",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "EC40",
       "Versiyon": "EC40 - Single Motor Extended Range, Ultra Elektrik - 150kW/204hp -",
       "Model_Yili": 2026,
       "Kaynak_URL": "",
       "TSB_Kodu": 1541332,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "EC40",
+      "Versiyon": "EC40 - Ultra, Single Motor Extended Range",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541332,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "EC40 SINGLE MOTOR EXTENDED RANGE ULTRA 150KW",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "EC40",
+      "Versiyon": "EC40 - Ultra, Twin Motor",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541312,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "EC40 TWIN TURBO ULTRA 300KW",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "ES90",
+      "Versiyon": "ES90 - Twin Motor Performance, Ultra",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541351,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "ES90 ULTRA TWIN MOTOR PERFORMANCE 500KW",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Volvo",
@@ -11033,6 +12113,30 @@
     },
     {
       "Marka": "Volvo",
+      "Model": "EX30",
+      "Versiyon": "EX30 - Ultra, P4 Long Range",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541350,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "EX30 P4 LONG RANGE ULTRA 150KW",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "EX30",
+      "Versiyon": "EX30 - Ultra, P8 AWD",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541341,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "EX30 TWIN MOTOR ULTRA 315KW",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
       "Model": "EX30 Cross Country",
       "Versiyon": "EX30 Cross Country - Twin Motor Performance, Ultra Elektrik - 315KW/428hp -",
       "Model_Yili": 2025,
@@ -11053,6 +12157,30 @@
     },
     {
       "Marka": "Volvo",
+      "Model": "EX30 Cross Country",
+      "Versiyon": "EX30 Cross Country - Ultra, P8 AWD",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541344,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "EX30 CROSS COUNTRY TWIN MOTOR PER ULTRA 315KW",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "EX40",
+      "Versiyon": "EX40 - Black Edition Ultra, Single Motor Extended Range",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541343,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "EX40 S.MOTOR EXT.RNG ULT. BLACK E.ULT 150KW",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
       "Model": "EX40",
       "Versiyon": "EX40 - Single Motor Extended Range, Ultra Elektrik - 150kW/204hp -",
       "Model_Yili": 2025,
@@ -11070,6 +12198,30 @@
       "TSB_Kodu": 1541333,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "EX40",
+      "Versiyon": "EX40 - Ultra, Single Motor Extended Range",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541333,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "EX40 SINGLE MOTOR EXTENDED RANGE ULTRA 150KW",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "EX40",
+      "Versiyon": "EX40 - Ultra, Twin Motor",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541310,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "EX40 TWIN MOTOR ULTRA 300KW",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Volvo",
@@ -11084,6 +12236,18 @@
     {
       "Marka": "Volvo",
       "Model": "V60",
+      "Versiyon": "V60 - B4 FWD Mild hybrid, Plus, Dark",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541334,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "V60 B4 M.HYBRID PLUS DARK 197",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "V60",
       "Versiyon": "V60 - B4 FWD Mild hybrid, Plus, Dark Benzin",
       "Model_Yili": 2025,
       "Kaynak_URL": "",
@@ -11100,6 +12264,18 @@
       "TSB_Kodu": 1541334,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "V60",
+      "Versiyon": "V60 - Plus, B4 Mild hybrid, Dark",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541334,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "V60 B4 M.HYBRID PLUS DARK 197",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Volvo",
@@ -11134,6 +12310,102 @@
     {
       "Marka": "Volvo",
       "Model": "XC60",
+      "Versiyon": "XC60 - Black Edition Plus, B5 AWD Mild hybrid",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541314,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC60 B5 AWD PLUS BLACK EDITION 2.0 250",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC60",
+      "Versiyon": "XC60 - Black Edition Plus, T8 AWD Plug-in hybrid",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541308,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC60 RECHARGE T8 AWD PLUS BLACK2.0 310+145",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC60",
+      "Versiyon": "XC60 - Black Edition Ultra, B5 AWD Mild hybrid",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541349,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC60 B5 AWD ULTRA BLACK EDITION 2.0 250",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC60",
+      "Versiyon": "XC60 - Black Edition Ultra, T8 AWD Plug-in hybrid",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541340,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC60 RECHARGE T8 AWD ULTRA BLACK2.0 310+145",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC60",
+      "Versiyon": "XC60 - Plus, B5 AWD Mild hybrid, Bright",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541338,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC60 B5 AWD PLUS BRIGHT 2.0 250",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC60",
+      "Versiyon": "XC60 - Plus, B5 AWD Mild hybrid, Dark",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541294,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC60 B5 AWD PLUS DARK 2.0 250",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC60",
+      "Versiyon": "XC60 - Plus, T8 AWD Plug-in hybrid, Bright",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541272,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC60 RECHARGE T8 AWDPLUS BRIGHT2.0 310+145 G.",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC60",
+      "Versiyon": "XC60 - Plus, T8 AWD Plug-in hybrid, Dark",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541273,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC60 RECHARGE T8 AWD PLUS DARK 2.0 310+145 G.",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC60",
       "Versiyon": "XC60 - T8 AWD Plug-in hybrid, Plus, Bright Elektrik/Benzin",
       "Model_Yili": 2026,
       "Kaynak_URL": "",
@@ -11154,6 +12426,18 @@
     {
       "Marka": "Volvo",
       "Model": "XC60",
+      "Versiyon": "XC60 - T8 AWD Plug-in hybrid, Polestar Engineered",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541275,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC60 RECHARGE T8 AWD POLESTARENGINERED 2.0 G.",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC60",
       "Versiyon": "XC60 - T8 AWD Plug-in hybrid, Polestar Engineered Elektrik/Benzin",
       "Model_Yili": 2025,
       "Kaynak_URL": "",
@@ -11170,6 +12454,54 @@
       "TSB_Kodu": 1541275,
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC60",
+      "Versiyon": "XC60 - Ultra, B5 AWD Mild hybrid, Bright",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541339,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC60 B5 AWD ULTRA BRIGHT 2.0 250",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC60",
+      "Versiyon": "XC60 - Ultra, B5 AWD Mild hybrid, Dark",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541315,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC60 B5 AWD ULTRA DARK 2.0 250",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC60",
+      "Versiyon": "XC60 - Ultra, T8 AWD Plug-in hybrid, Bright",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541316,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC60 RECHARGE T8 AWD ULTRA BRIGHT 2.0 310+145",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC60",
+      "Versiyon": "XC60 - Ultra, T8 AWD Plug-in hybrid, Dark",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541317,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC60 RECHARGE T8 AWD ULTRA DARK 2.0 310+145",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
     },
     {
       "Marka": "Volvo",
@@ -11224,6 +12556,114 @@
     {
       "Marka": "Volvo",
       "Model": "XC90",
+      "Versiyon": "XC90 - Black Edition Plus, B5 AWD Mild hybrid",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541346,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC90 B5 AWD PLUS B.EDITION 2.0 250 GEAR FL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC90",
+      "Versiyon": "XC90 - Black Edition Plus, T8 AWD Plug-in hybrid",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541345,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC90 T8 AWD P.HYBRIDPLUS BLACKEDT 310+145 FL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC90",
+      "Versiyon": "XC90 - Black Edition, T8 AWD Plug-in hybrid, Plus",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541345,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC90 T8 AWD P.HYBRIDPLUS BLACKEDT 310+145 FL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC90",
+      "Versiyon": "XC90 - Black Edition Ultra, B5 AWD Mild hybrid",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541347,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC90 B5 AWD ULTRA B.EDITION 2.0 250 GEAR FL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC90",
+      "Versiyon": "XC90 - Black Edition Ultra, T8 AWD Plug-in hybrid",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541348,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC90 T8 AWD P.HYBRIDULTRA BLACK EDT310+145FL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC90",
+      "Versiyon": "XC90 - Plus, B5 AWD Mild hybrid, Bright",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541325,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC90 B5 AWD PLUS BRIGHT 2.0 250 GEAR FL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC90",
+      "Versiyon": "XC90 - Plus, B5 AWD Mild hybrid, Dark",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541335,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC90 B5 AWD PLUS DARK 2.0 250 GEAR FL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC90",
+      "Versiyon": "XC90 - Plus, T8 AWD Plug-in hybrid, Bright",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541327,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC90 T8 AWD P.HYBRID PLUS BRIGHT 310+145 FL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC90",
+      "Versiyon": "XC90 - Plus, T8 AWD Plug-in hybrid, Dark",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541328,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC90 T8 AWD P.HYBRID PLUS DARK 310+145 FL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC90",
       "Versiyon": "XC90 - T8 AWD Plug-in hybrid, Plus, Bright Elektrik/Benzin",
       "Model_Yili": 2025,
       "Kaynak_URL": "",
@@ -11253,6 +12693,54 @@
     },
     {
       "Marka": "Volvo",
+      "Model": "XC90",
+      "Versiyon": "XC90 - Ultra, B5 AWD Mild hybrid, Bright",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541326,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC90 B5 AWD ULTRA BRIGHT 2.0 250 GEAR FL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC90",
+      "Versiyon": "XC90 - Ultra, B5 AWD Mild hybrid, Dark",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541336,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC90 B5 AWD ULTRA DARK 2.0 250 GEAR FL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC90",
+      "Versiyon": "XC90 - Ultra, T8 AWD Plug-in hybrid, Bright",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541329,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC90 T8 AWD P.HYBRID ULTRA BRIGHT 310+145 FL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
+      "Model": "XC90",
+      "Versiyon": "XC90 - Ultra, T8 AWD Plug-in hybrid, Dark",
+      "Model_Yili": 2026,
+      "Kaynak_URL": "https://www.volvocars.com/tr/l/fiyat-listesi/",
+      "TSB_Kodu": 1541330,
+      "Katalog_Marka": "VOLVO",
+      "Katalog_Model": "XC90 T8 AWD P.HYBRID ULTRA DARK 310+145 FL",
+      "Karar": "KESİN",
+      "Durum": "DOĞRULANDI (KASIM 2026 TSB LİSTESİ)"
+    },
+    {
+      "Marka": "Volvo",
       "Model": "XC90 Black Edition",
       "Versiyon": "XC90 Black Edition - B5 AWD Mild hybrid, Plus Benzin",
       "Model_Yili": 2026,
@@ -11271,5 +12759,6 @@
       "Karar": "KESİN",
       "Dogrulama_Kaynagi": "Sifir_arac_2026-10-16.xlsx"
     }
-  ]
+  ],
+  "confirmed_count": 1251
 }

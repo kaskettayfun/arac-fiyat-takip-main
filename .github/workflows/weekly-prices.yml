@@ -7,6 +7,7 @@ on:
       - "*.py"
       - "vehicle_prices/**"
       - "config/**"
+      - "data/catalog/**"
       - "tests/**"
       - "requirements.txt"
       - ".github/workflows/weekly-prices.yml"
@@ -76,6 +77,10 @@ jobs:
           done
           test "$success" -eq 1
 
+      - name: TSB kasko katalogunu guncelle
+        timeout-minutes: 2
+        run: python extract_kasko_tsb_catalog.py --auto
+
       - name: Testleri calistir
         id: tests
         timeout-minutes: 3
@@ -139,7 +144,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/Sifir_Arac_Fiyat_Gecmisi.xlsx data/arsiv/ data/Sifir_arac_*.xlsx
+          git add data/Sifir_Arac_Fiyat_Gecmisi.xlsx data/arsiv/ data/Sifir_arac_*.xlsx data/catalog/kasko_tsb_202608.json
           git diff --cached --quiet || git commit -m "data: haftalik sifir arac fiyatlari"
           for attempt in 1 2; do
             if git push; then exit 0; fi

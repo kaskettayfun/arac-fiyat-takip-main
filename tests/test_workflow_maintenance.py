@@ -40,6 +40,11 @@ class WorkflowMaintenanceTest(unittest.TestCase):
         self.assertIn("steps.export_excel.outcome == 'success'", workflow)
         self.assertIn("steps.audit.outcome == 'success'", workflow)
 
+    def test_weekly_workflow_auto_updates_tsb_catalog_when_excel_added(self):
+        workflow = (ROOT / ".github" / "workflows" / "weekly-prices.yml").read_text(encoding="utf-8")
+        self.assertIn('"data/catalog/**"', workflow)
+        self.assertIn("python extract_kasko_tsb_catalog.py --auto", workflow)
+
 
 if __name__ == "__main__":
     unittest.main()
